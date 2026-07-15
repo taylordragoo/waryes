@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6e2238fed9b9b944580ca5aafd652cd9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/LODs/SM_GasBottle_A_LOD_Meshes/LEVEL_3/03_SM_GasBottle_A.mesh
+  uploadId: 858350

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b004a4b06e6254c4c95c186416062c69
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_Boxes_01.mat
+  uploadId: 858350

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 57437b440353d254ca265fe85ed61dde
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Editor/Data/SelectSideDataTypeB.asset
+  uploadId: 858350

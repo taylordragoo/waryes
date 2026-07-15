@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca8666bd3d9545a4ab474cce9ed3c1dc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Tiled/MI_WoodPole.mat
+  uploadId: 858350

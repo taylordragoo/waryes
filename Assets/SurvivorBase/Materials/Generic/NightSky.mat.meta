@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bfe8dc9abdf34eb4a67bb416ef1972bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Generic/NightSky.mat
+  uploadId: 858350

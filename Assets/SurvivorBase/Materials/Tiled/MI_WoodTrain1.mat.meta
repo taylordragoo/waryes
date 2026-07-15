@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b407f0eb0306b444597cb309dca0f386
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Tiled/MI_WoodTrain1.mat
+  uploadId: 858350

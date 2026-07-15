@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b542d98770c14e24abc5aca28856092e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Cargo/Materials/MI_Generic_Plastic-A_White.mat
+  uploadId: 858350

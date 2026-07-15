@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c3b127f24dabb5440bd680da31cbd162
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_Glass_A_Carrier.mat
+  uploadId: 858350

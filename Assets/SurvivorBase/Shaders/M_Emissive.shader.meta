@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: faeee55b8c16413b876190c6b53e5072
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Shaders/M_Emissive.shader
+  uploadId: 858350

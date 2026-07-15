@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 645829b70a8f3c24782cb7fdef47f346
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Prefabs/Modules/TypeA Modules/WallFront.prefab
+  uploadId: 858350

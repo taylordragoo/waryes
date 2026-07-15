@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7d50bfa0ef696da4a92ed130a4bd743e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_Generic_Plastic-A_Dark.mat
+  uploadId: 858350

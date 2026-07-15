@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_CarsBottom
+  m_Shader: {fileID: 4800000, guid: 1db8d3ceaa3763141b83c8f986a3815f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Material_Texture2D_0:
+        m_Texture: {fileID: 2800000, guid: abc00000000011644982015669602423, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_1:
+        m_Texture: {fileID: 2800000, guid: abc00000000001554759068995909442, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_2:
+        m_Texture: {fileID: 2800000, guid: abc00000000007743451776374891132, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ARM:
+        m_Texture: {fileID: 2800000, guid: abc00000000007743451776374891132, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: abc00000000001554759068995909442, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Asphalt_roughness:
+        m_Texture: {fileID: 2800000, guid: 14bbf95653e20d041b5d839fc2bb3b8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Car_ARM:
+        m_Texture: {fileID: 2800000, guid: abc00000000007743451776374891132, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Car_Albedo:
+        m_Texture: {fileID: 2800000, guid: abc00000000001554759068995909442, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Car_Normal:
+        m_Texture: {fileID: 2800000, guid: abc00000000011644982015669602423, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dust_Albedo:
+        m_Texture: {fileID: 2800000, guid: 0c0e0cb0d9f64858856bd2163b1273c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dust_Normal:
+        m_Texture: {fileID: 2800000, guid: abc00000000002741331834451682871, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: ed92e1a319e92c14cb3f322474b8e9fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: abc00000000011644982015669602423, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Peel_Normal:
+        m_Texture: {fileID: 2800000, guid: abc00000000011644982015669602423, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rust_Albedo:
+        m_Texture: {fileID: 2800000, guid: abc00000000016885468317101039418, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rust_Normal:
+        m_Texture: {fileID: 2800000, guid: abc00000000014850545317076859469, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Flat_Normal:
+        m_Texture: {fileID: 2800000, guid: abc00000000012086016955022957036, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Grid_A:
+        m_Texture: {fileID: 2800000, guid: a6d4d9bfb54bd5549a8dd6446c8575e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Moss_A:
+        m_Texture: {fileID: 2800000, guid: dc86bbbb48534ace91cee76603e0defe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Moss_A_Normal:
+        m_Texture: {fileID: 2800000, guid: b86c4d2f6dfb428fa3d1ea4fba6839ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Brightness: 0.048
+    - _Brightness_Dust: 0.34
+    - _Brightness_Rust: 0.44
+    - _Contrast: 0.49
+    - _Desaturation: 0.3
+    - _Desaturation_Dust: 0
+    - _Desaturation_Rust: 0
+    - _DstBlend: 0
+    - _EmissivePower: 15
+    - _Mask_Dust_Global: 1
+    - _Mask_Moss: 0
+    - _Mask_Rust_Global: 1
+    - _Metallic_Paint: 1
+    - _Normal_PeelPaint: 1
+    - _Roughness: 0.36
+    - _Roughness_Moss: 0
+    - _Roughness_Paint: 1.37
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _Use_Albedo: 0
+    - _Use_DustOnly: 0
+    - _Use_Mask: 0
+    - _Use_R_Mask: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - LocalObjectBoundsMax: {r: 100, g: 100, b: 100, a: 0}
+    - LocalObjectBoundsMin: {r: 0, g: 0, b: 0, a: 0}
+    - View_BufferSizeAndInvSize: {r: 1920, g: 1080, b: 0.00052, a: 0.00092}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _ColorBody: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

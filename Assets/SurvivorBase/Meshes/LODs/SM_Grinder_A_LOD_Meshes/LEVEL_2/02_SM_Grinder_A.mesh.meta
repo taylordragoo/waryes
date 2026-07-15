@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5cf609600b9eab34f9322ae3c58ca476
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/LODs/SM_Grinder_A_LOD_Meshes/LEVEL_2/02_SM_Grinder_A.mesh
+  uploadId: 858350

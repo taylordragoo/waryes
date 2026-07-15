@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cd44d0abdf9ba5941b19bac8caf2e5a3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Cargo/Materials/Illum.mat
+  uploadId: 858350

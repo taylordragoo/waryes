@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dc5015689c41b1745ac302956b74c553
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Scripts/RailingPivotSpawner.cs
+  uploadId: 858350

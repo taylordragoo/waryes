@@ -36,7 +36,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Conifer_Billboard
-  m_Shader: {fileID: -6465566751694194690, guid: 9a708780807cb43d7b90c5533fc6308a, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 9a708780807cb43d7b90c5533fc6308a,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHA_CUT
   - _BRUSHLIGHTING
@@ -60,6 +63,7 @@ Material:
   - RayTracingPrepass
   - ForwardEmissiveForDeferred
   - MOTIONVECTORS
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -133,7 +137,7 @@ Material:
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _AlphaThreshold: 0.5
+    - _AlphaThreshold: 0.4
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BillboardKwToggle: 0
@@ -230,7 +234,8 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - Diffusion_Profile_Asset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37, a: 0.00018220427}
+    - Diffusion_Profile_Asset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37,
+        a: 0.00018220427}
     - _AO_Remap: {r: 0, g: 0.3, b: 0, a: 0}
     - _Color: {r: 0.7700869, g: 0.8396226, b: 0.6376379, a: 1}
     - _DitherFade: {r: 50, g: 50, b: 0, a: 0}
@@ -245,6 +250,7 @@ Material:
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &293113055643152850
 MonoBehaviour:
   m_ObjectHideFlags: 11

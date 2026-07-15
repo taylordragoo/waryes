@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d1008c380a129c49b2570e7c8027c47
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Terrain/Rock.terrainlayer
+  uploadId: 858350

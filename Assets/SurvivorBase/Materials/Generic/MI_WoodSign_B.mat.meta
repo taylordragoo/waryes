@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5677d4fa2774b97a05565b367863849
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Generic/MI_WoodSign_B.mat
+  uploadId: 858350

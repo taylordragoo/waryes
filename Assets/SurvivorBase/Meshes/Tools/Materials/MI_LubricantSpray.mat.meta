@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1f3d0e53250e6cb4b97ebd0e6e20dbfd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Tools/Materials/MI_LubricantSpray.mat
+  uploadId: 858350

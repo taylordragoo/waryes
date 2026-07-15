@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 59df268a4a3bd00428d38ab7de02b396
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Scripts/MaterialSetController.cs
+  uploadId: 858350

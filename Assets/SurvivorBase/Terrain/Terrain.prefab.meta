@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d1c98662797a2f14ea0c9c3cce1483b2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Terrain/Terrain.prefab
+  uploadId: 858350

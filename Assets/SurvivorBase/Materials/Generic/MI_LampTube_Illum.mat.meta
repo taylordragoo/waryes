@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5fbf9c5fa4b924c4db9d521d35823ae9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Generic/MI_LampTube_Illum.mat
+  uploadId: 858350

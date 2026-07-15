@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eaffc296b6baf394fae3a45a588fc788
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_Tarpaulin-A.mat
+  uploadId: 858350

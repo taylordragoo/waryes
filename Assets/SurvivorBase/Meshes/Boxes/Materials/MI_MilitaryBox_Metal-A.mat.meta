@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ea2c1d9d1fc25a4f8dc4b3fe428268a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Boxes/Materials/MI_MilitaryBox_Metal-A.mat
+  uploadId: 858350

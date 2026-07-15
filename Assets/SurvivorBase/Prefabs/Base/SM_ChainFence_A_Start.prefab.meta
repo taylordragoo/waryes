@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc00000000009943515906010803694
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Prefabs/Base/SM_ChainFence_A_Start.prefab
+  uploadId: 858350

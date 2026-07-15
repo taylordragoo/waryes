@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1bf9763e016cbf5449e618060362c332
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Structures/Materials/MI_Bridge.mat
+  uploadId: 858350

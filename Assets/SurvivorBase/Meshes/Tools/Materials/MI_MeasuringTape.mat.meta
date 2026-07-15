@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6e3e609194aaff04184daf4eb2644352
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Tools/Materials/MI_MeasuringTape.mat
+  uploadId: 858350

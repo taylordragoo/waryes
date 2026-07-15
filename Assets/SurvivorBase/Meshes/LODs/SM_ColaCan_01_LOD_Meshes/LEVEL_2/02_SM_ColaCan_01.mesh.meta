@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a607869b78bd6346a7f90c5008947f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/LODs/SM_ColaCan_01_LOD_Meshes/LEVEL_2/02_SM_ColaCan_01.mesh
+  uploadId: 858350

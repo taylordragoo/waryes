@@ -19,6 +19,16 @@ namespace uSimRTS
         public List<uSimRTS_Unit> playerUnits;
         [Tooltip("Camera controller. automatically assigned.")]
         public uSimRTS_CameraController cameraController;
+
+        [Header("Destination Indicator")]
+        [Tooltip("Optional prefab spawned when a move order is issued. A procedural ring is used when this is empty.")]
+        public GameObject destinationIndicatorPrefab;
+        [Tooltip("How long the destination indicator remains visible.")]
+        public float destinationIndicatorDuration = 2.5f;
+        [Tooltip("Radius of the procedural destination indicator.")]
+        public float destinationIndicatorSize = 0.1f;
+        [Tooltip("Color of the procedural destination indicator.")]
+        public Color destinationIndicatorColor = new Color(1f, 0.82f, 0.15f, 1f);
    
         RaycastHit hit;
         Vector3 lastMouseHit;
@@ -76,7 +86,7 @@ namespace uSimRTS
                 {
                     Debug.Log(hit.collider.name);
 
-                    if (hit.collider.tag == "world" )
+                    if (uSimRTS_WorldSurface.IsWalkable(hit))
                         SetSelectedUnitsWaypoint(hit.point);
                     if(selectedUnits[0] != null)
                     if(selectedUnits[0].GetComponent<uSimRTS_ResourceCollector>() != null)
@@ -181,7 +191,9 @@ namespace uSimRTS
         
         public void SetSelectedUnitsWaypoint (Vector3 pos)
         {
-            pos.y = 0f;
+            Vector3 indicatorPosition = pos;
+
+            ShowDestinationIndicator(indicatorPosition);
 
             try
             {
@@ -202,6 +214,77 @@ namespace uSimRTS
             
             
                        
+        }
+
+        void ShowDestinationIndicator(Vector3 position)
+        {
+            position += Vector3.up * 0.05f;
+
+            if (destinationIndicatorPrefab != null)
+            {
+                GameObject indicatorInstance = Instantiate(destinationIndicatorPrefab, position, Quaternion.identity);
+                Destroy(indicatorInstance, destinationIndicatorDuration);
+                return;
+            }
+
+            GameObject indicator = new GameObject("Destination Indicator");
+            indicator.transform.position = position;
+
+            LineRenderer ring = indicator.AddComponent<LineRenderer>();
+            ring.useWorldSpace = false;
+            ring.loop = true;
+            ring.positionCount = 64;
+            ring.widthMultiplier = Mathf.Clamp(destinationIndicatorSize * 0.15f, 0.001f, 0.06f);
+            ring.numCornerVertices = 4;
+            ring.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+            ring.receiveShadows = false;
+
+            for (int i = 0; i < ring.positionCount; i++)
+            {
+                float angle = i / (float)ring.positionCount * Mathf.PI * 2f;
+                ring.SetPosition(i, new Vector3(Mathf.Cos(angle), 0f, Mathf.Sin(angle)) * destinationIndicatorSize);
+            }
+
+            Shader shader = Shader.Find("Sprites/Default");
+            Material runtimeMaterial = null;
+            if (shader != null)
+            {
+                runtimeMaterial = new Material(shader);
+                runtimeMaterial.name = "Destination Indicator Material (Runtime)";
+                runtimeMaterial.color = destinationIndicatorColor;
+                ring.sharedMaterial = runtimeMaterial;
+            }
+
+            StartCoroutine(AnimateDestinationIndicator(indicator, runtimeMaterial));
+        }
+
+        IEnumerator AnimateDestinationIndicator(GameObject indicator, Material runtimeMaterial)
+        {
+            float elapsed = 0f;
+            float duration = Mathf.Max(0.1f, destinationIndicatorDuration);
+
+            while (elapsed < duration && indicator != null)
+            {
+                elapsed += Time.deltaTime;
+                float progress = Mathf.Clamp01(elapsed / duration);
+                float pulse = 1f + Mathf.Sin(progress * Mathf.PI * 4f) * 0.08f;
+                float scale = Mathf.Lerp(1.3f, 0.85f, progress) * pulse;
+                indicator.transform.localScale = Vector3.one * scale;
+
+                if (runtimeMaterial != null)
+                {
+                    Color color = destinationIndicatorColor;
+                    color.a *= 1f - progress;
+                    runtimeMaterial.color = color;
+                }
+
+                yield return null;
+            }
+
+            if (runtimeMaterial != null)
+                Destroy(runtimeMaterial);
+            if (indicator != null)
+                Destroy(indicator);
         }
 
         IEnumerator WaitAndCheckOVerlap(uSimRTS_Unit unit)

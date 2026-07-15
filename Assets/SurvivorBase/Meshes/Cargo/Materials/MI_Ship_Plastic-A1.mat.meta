@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb6614a076290ab48b6d509a52c7906b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Cargo/Materials/MI_Ship_Plastic-A1.mat
+  uploadId: 858350

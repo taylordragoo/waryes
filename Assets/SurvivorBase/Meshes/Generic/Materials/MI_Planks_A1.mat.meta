@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2fbd1739cf13a8f48b4d95233bae8a14
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_Planks_A1.mat
+  uploadId: 858350

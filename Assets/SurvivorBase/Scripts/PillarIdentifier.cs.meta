@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e06b5156a6ae2be43a1be390c5e38bb2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Scripts/PillarIdentifier.cs
+  uploadId: 858350

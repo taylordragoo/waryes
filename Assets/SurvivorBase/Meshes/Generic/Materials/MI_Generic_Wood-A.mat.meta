@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de695382a433f0a409afa7ba7885e57c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_Generic_Wood-A.mat
+  uploadId: 858350

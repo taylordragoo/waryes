@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a46a1a2d9099a994cb2a602c2f43d9eb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Chairs/Materials/MI_RollingChair_A1.mat
+  uploadId: 858350

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1db8d3ceaa3763141b83c8f986a3815f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Shaders/M_CarBlend.shader
+  uploadId: 858350

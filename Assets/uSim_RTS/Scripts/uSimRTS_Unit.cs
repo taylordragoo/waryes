@@ -49,10 +49,20 @@ namespace uSimRTS
         public GameObject blockingObject;
         Vector3 lastHitPos;
         Vector3 dirToWp;
-       
-    
-       // Start is called before the first frame update
-       void Start()
+
+        const float GroundProbeHeight = 100f;
+        const float GroundProbeDistance = 250f;
+        readonly RaycastHit[] groundHits = new RaycastHit[32];
+        readonly RaycastHit[] obstacleHits = new RaycastHit[32];
+
+        void Awake()
+        {
+            uSimRTS_ProjectScale.ConfigureUnit(this);
+            uSimRTS_ProjectScale.ConfigureRanges(this);
+        }
+
+        // Start is called before the first frame update
+        void Start()
         {
             waypoint.gameObject.hideFlags = HideFlags.HideInHierarchy;
             waypoint.parent = null;
@@ -67,6 +77,8 @@ namespace uSimRTS
 
             if (useNavMeshAgent)
                 navMeshAgent = GetComponent<NavMeshAgent>();
+            else
+                SnapToGround(transform.position);
 
             waypointOverlapChecker.CheckWaypointOverlaping();
 
@@ -83,15 +95,19 @@ namespace uSimRTS
 
 
               //  pointer.rotation = Quaternion.Lerp(pointer.rotation,, Time.deltaTime);
-                pointer.rotation = Quaternion.LookRotation(waypoint.position - transform.position, transform.up);
+                Vector3 waypointDirection = PlanarDirectionTo(waypoint.position);
+                if (waypointDirection.sqrMagnitude > 0.0001f)
+                    pointer.rotation = Quaternion.LookRotation(waypointDirection, Vector3.up);
 
 
                 if (!blockingObject)
-                    dirToWp = waypoint.position - transform.position;
+                    dirToWp = PlanarDirectionTo(waypoint.position);
 
 
 
-                inverseTgtPos = transform.InverseTransformPoint(waypoint.position);
+                Vector3 planarWaypoint = waypoint.position;
+                planarWaypoint.y = transform.position.y;
+                inverseTgtPos = transform.InverseTransformPoint(planarWaypoint);
 
 
 
@@ -101,19 +117,20 @@ namespace uSimRTS
                     if (inversePos.z > 0f)
                     {
                         if (inversePos.x <= 0f)
-                            dirToWp = lastHitPos + (pointer.right * size * 1.2f);
+                            dirToWp = PlanarDirectionTo(lastHitPos + (pointer.right * size * 1.2f));
                         if (inversePos.x > 0f)
-                            dirToWp = lastHitPos - (pointer.right * size * 1.2f);
+                            dirToWp = PlanarDirectionTo(lastHitPos - (pointer.right * size * 1.2f));
                     }
                 }
 
 
-                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(dirToWp, Vector3.up), Time.deltaTime * turnSpeed);
+                if (dirToWp.sqrMagnitude > 0.0001f)
+                    transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(dirToWp, Vector3.up), Time.deltaTime * turnSpeed);
            
 
 
                     moveInput = 1f;
-                distToTgt = Vector3.Distance(transform.position, waypoint.position);
+                distToTgt = PlanarDirectionTo(waypoint.position).magnitude;
                 if (distToTgt < size || colliding)
                     moveInput = -3f;
 
@@ -129,22 +146,58 @@ namespace uSimRTS
                 speed += moveInput * (accel / 100f) * Time.deltaTime;
                 speed = Mathf.Clamp(speed, 0f, curMaxSpeed / 100f);
 
-                transform.Translate(transform.forward * speed, Space.World);
+                SnapToGround(transform.position + (transform.forward * speed));
             }
             else {
 
-                if (combatController)
-                {
-                    if (combatController.firing && combatController.target)
-                        transform.rotation = Quaternion.LookRotation(combatController.target.position - transform.position, Vector3.up);
-                    else
-                        transform.rotation = Quaternion.LookRotation(navMeshAgent.steeringTarget - transform.position, Vector3.up);
-                }
-                else
-                {
-                    transform.rotation = Quaternion.LookRotation(navMeshAgent.steeringTarget - transform.position, Vector3.up);
-                }
+                Vector3 lookDirection = Vector3.zero;
+
+                if (combatController && combatController.firing && combatController.target)
+                    lookDirection = PlanarDirectionTo(combatController.target.position);
+                else if (navMeshAgent != null && navMeshAgent.isOnNavMesh && navMeshAgent.hasPath)
+                    lookDirection = PlanarDirectionTo(navMeshAgent.steeringTarget);
+
+                if (lookDirection.sqrMagnitude > 0.0001f)
+                    transform.rotation = Quaternion.LookRotation(lookDirection, Vector3.up);
             }
+        }
+
+        Vector3 PlanarDirectionTo(Vector3 worldPosition)
+        {
+            return Vector3.ProjectOnPlane(worldPosition - transform.position, Vector3.up);
+        }
+
+        void SnapToGround(Vector3 worldPosition)
+        {
+            Vector3 rayOrigin = worldPosition + (Vector3.up * GroundProbeHeight);
+            int hitCount = Physics.RaycastNonAlloc(
+                rayOrigin,
+                Vector3.down,
+                groundHits,
+                GroundProbeDistance,
+                ~0,
+                QueryTriggerInteraction.Ignore);
+
+            float closestDistance = float.MaxValue;
+            bool foundGround = false;
+            Vector3 groundedPosition = worldPosition;
+
+            for (int i = 0; i < hitCount; i++)
+            {
+                RaycastHit hit = groundHits[i];
+
+                if (!uSimRTS_WorldSurface.IsWalkable(hit))
+                    continue;
+
+                if (hit.distance >= closestDistance)
+                    continue;
+
+                closestDistance = hit.distance;
+                groundedPosition.y = hit.point.y;
+                foundGround = true;
+            }
+
+            transform.position = foundGround ? groundedPosition : worldPosition;
         }
         
         public LayerMask avoidanceMask;
@@ -153,16 +206,48 @@ namespace uSimRTS
             if (!waitingOnBlock)
                 StartCoroutine(WaitAndClearBlock());
 
-            RaycastHit hit;
             Ray ray = new Ray(transform.position + (Vector3.up * size /2), transform.forward);
-            if (Physics.SphereCast(ray, size, out hit, size, avoidanceMask))
+            int hitCount = Physics.SphereCastNonAlloc(
+                ray,
+                size,
+                obstacleHits,
+                size,
+                avoidanceMask,
+                QueryTriggerInteraction.Ignore);
+
+            bool foundBlocker = false;
+            float closestDistance = float.MaxValue;
+            RaycastHit closestHit = new RaycastHit();
+
+            for (int i = 0; i < hitCount; i++)
             {
-                if (hit.collider.tag != "world" && hit.collider.tag != "blueUnit")
+                RaycastHit hit = obstacleHits[i];
+
+                if (hit.collider.transform.IsChildOf(transform))
+                    continue;
+
+                if (uSimRTS_WorldSurface.IsWalkable(hit) ||
+                    uSimRTS_WorldSurface.IsTerrainSurface(hit.collider) ||
+                    uSimRTS_WorldSurface.IsRoadSupport(hit.collider) ||
+                    uSimRTS_WorldSurface.IsWater(hit.collider) ||
+                    hit.collider.CompareTag("blueUnit"))
                 {
-                    blockingObject = hit.collider.gameObject;
-                    lastHitPos = hit.point;
+                    continue;
                 }
+
+                if (hit.distance >= closestDistance)
+                    continue;
+
+                foundBlocker = true;
+                closestDistance = hit.distance;
+                closestHit = hit;
             }
+
+            if (!foundBlocker)
+                return;
+
+            blockingObject = closestHit.collider.gameObject;
+            lastHitPos = closestHit.point;
 
         }
 

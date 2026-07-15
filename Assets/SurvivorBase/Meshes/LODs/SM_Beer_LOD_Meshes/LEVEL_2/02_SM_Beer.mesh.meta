@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2dc10cd4acdc9144b9800444adb407fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/LODs/SM_Beer_LOD_Meshes/LEVEL_2/02_SM_Beer.mesh
+  uploadId: 858350

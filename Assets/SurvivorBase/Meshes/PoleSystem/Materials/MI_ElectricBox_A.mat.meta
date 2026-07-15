@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0197afa2ad4c74845ac6201b0539f0fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/PoleSystem/Materials/MI_ElectricBox_A.mat
+  uploadId: 858350

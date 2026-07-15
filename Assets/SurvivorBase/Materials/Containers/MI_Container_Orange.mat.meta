@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c710c7ae806503945a5a38c16a83639e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Containers/MI_Container_Orange.mat
+  uploadId: 858350

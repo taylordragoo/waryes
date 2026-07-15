@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1e9ba9528d64e0428373370e62c932b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Editor/Data/RailingsDataTypeA.asset
+  uploadId: 858350

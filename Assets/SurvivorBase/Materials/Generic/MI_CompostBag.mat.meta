@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc00000000012769322055611069497
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Generic/MI_CompostBag.mat
+  uploadId: 858350

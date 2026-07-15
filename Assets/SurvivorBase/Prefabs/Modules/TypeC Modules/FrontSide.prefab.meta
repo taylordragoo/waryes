@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d171459d8d95a4b42abadbf77f140c3f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Prefabs/Modules/TypeC Modules/FrontSide.prefab
+  uploadId: 858350

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d53b2d176fbf1584f81f7f418afa3520
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Containers/MI_Props_MilitaryBox_White.mat
+  uploadId: 858350

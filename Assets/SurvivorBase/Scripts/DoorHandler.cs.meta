@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5f541787d0a9422ea6a110738fc29ae1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Scripts/DoorHandler.cs
+  uploadId: 858350

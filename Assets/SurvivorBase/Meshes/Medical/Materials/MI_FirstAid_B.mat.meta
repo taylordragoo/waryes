@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 445201c6b908c3845bb0407b8b8d5e9f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Medical/Materials/MI_FirstAid_B.mat
+  uploadId: 858350

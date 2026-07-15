@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 380d03b27a921884ea9adf2b73074289
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Tools/Materials/MI_Shelf_A.mat
+  uploadId: 858350

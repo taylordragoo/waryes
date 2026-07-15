@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a3babd0ebbf45fc80b25317808fd08d, type: 3}
+  m_Name: ContainerMaterialSet
+  m_EditorClassIdentifier: 
+  FrameMaterial: {fileID: 2100000, guid: d1d86464f12f4a44d9af445ce21937f5, type: 2}
+  DetailsMaterial: {fileID: 2100000, guid: 416c59a0a82359d4fad71fea9e93431d, type: 2}
+  ValvesMaterial: {fileID: 2100000, guid: abc00000000006572021137665167925, type: 2}
+  FloorMaterial: {fileID: 2100000, guid: abc00000000005213617255948281535, type: 2}
+  WallInsideMaterial: {fileID: 2100000, guid: c33fcad8bc3613348ac01126e77f1ddf, type: 2}
+  StairsMaterial: {fileID: 2100000, guid: 17999ebf6765d2b498d4ea32423dc8f5, type: 2}
+  DoorMaterial: {fileID: 2100000, guid: abc00000000008866900165607884815, type: 2}
+  Icon: {fileID: 2800000, guid: d60b0384707a1bb448a104f27a73d522, type: 3}

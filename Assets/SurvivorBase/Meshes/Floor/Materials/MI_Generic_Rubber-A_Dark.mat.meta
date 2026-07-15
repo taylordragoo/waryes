@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2500a66c36945341b3f8821eaa57d2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Floor/Materials/MI_Generic_Rubber-A_Dark.mat
+  uploadId: 858350

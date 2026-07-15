@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 32fe0df0da3348843819ca24785729a2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Scripts/RailingsIdentifier.cs
+  uploadId: 858350

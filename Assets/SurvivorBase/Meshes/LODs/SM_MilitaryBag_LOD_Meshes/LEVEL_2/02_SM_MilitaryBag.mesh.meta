@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0fb314cf72612f478d9243184a4bcdf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/LODs/SM_MilitaryBag_LOD_Meshes/LEVEL_2/02_SM_MilitaryBag.mesh
+  uploadId: 858350

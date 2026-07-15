@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dda44fe9b70d2d64ea65ec325ea959ca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Chairs/Materials/MI_Chair_C.mat
+  uploadId: 858350

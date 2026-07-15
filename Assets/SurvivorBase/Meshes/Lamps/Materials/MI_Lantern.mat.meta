@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6964eda590bd3fa4f9a87e2d57c1a563
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Lamps/Materials/MI_Lantern.mat
+  uploadId: 858350

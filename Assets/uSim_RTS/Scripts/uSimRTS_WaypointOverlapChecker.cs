@@ -6,6 +6,9 @@ namespace uSimRTS
 {
     public class uSimRTS_WaypointOverlapChecker : MonoBehaviour
     {
+        const int MaxOffsetAttempts = 24;
+        const int MaxResolutionPasses = 3;
+
         public uSimRTS_Unit ownerUnit;
         public LayerMask castMask;
         public void CheckWaypointOverlaping ()
@@ -15,50 +18,60 @@ namespace uSimRTS
             
         }
 
-        void LateUpdate ()
-        {
-            if (ownerUnit != null)          
-            StartCoroutine(WaitAndCheckOverlap());
-        }
-
         IEnumerator WaitAndCheckOverlap()
         {
-            yield return new WaitForFixedUpdate();
+            for (int pass = 0; pass < MaxResolutionPasses; pass++)
+            {
+                yield return new WaitForFixedUpdate();
 
-            Collider[] colliders = CheckOverlapAtPosition(transform.position);
+                if (!HasBlockingOverlap(transform.position))
+                    yield break;
 
-            if (colliders.Length > 0)
-                if (colliders[0].gameObject != ownerUnit.gameObject && colliders[0].gameObject != gameObject)
-                    OffsetWaypoint(colliders[0].transform.position);
+                OffsetWaypoint();
+            }
         }
 
         Collider[] CheckOverlapAtPosition (Vector3 pos)
         {
-            float s = ownerUnit.size / 2f;
+            float s = ownerUnit.size;
             Vector3 size = new Vector3(s, s, s);
             Collider[] colliders = Physics.OverlapBox(pos, size, Quaternion.identity, castMask, QueryTriggerInteraction.Collide);
 
             return colliders;
         }
 
-        void OffsetWaypoint (Vector3 from)
+        bool HasBlockingOverlap(Vector3 position)
         {
-            Vector3 dir = from - transform.position;
-            Vector3 randomPos = transform.position;
-            Collider[] colliders;
+            Collider[] colliders = CheckOverlapAtPosition(position);
 
-            do
+            foreach (Collider collider in colliders)
             {
-                randomPos = GetRandomPlace();
-                colliders = CheckOverlapAtPosition(randomPos);
+                if (collider.gameObject == gameObject)
+                    continue;
+
+                if (ownerUnit != null && collider.transform.IsChildOf(ownerUnit.transform))
+                    continue;
+
+                return true;
             }
-            while (colliders.Length > 0);
 
-            Vector3 pos = transform.position;
-            pos += randomPos;
-            
+            return false;
+        }
 
-            transform.position = pos;
+        void OffsetWaypoint ()
+        {
+            Vector3 originalPosition = transform.position;
+
+            for (int attempt = 0; attempt < MaxOffsetAttempts; attempt++)
+            {
+                Vector3 candidate = originalPosition + GetRandomPlace();
+
+                if (HasBlockingOverlap(candidate))
+                    continue;
+
+                transform.position = candidate;
+                return;
+            }
 
         }
 

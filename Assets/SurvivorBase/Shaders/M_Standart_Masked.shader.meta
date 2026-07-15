@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ef4a7f0e5d93e574b83c08adc9e3829b
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Shaders/M_Standart_Masked.shader
+  uploadId: 858350

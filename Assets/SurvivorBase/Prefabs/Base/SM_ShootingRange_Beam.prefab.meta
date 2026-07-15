@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc00000000003664354580576596069
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Prefabs/Base/SM_ShootingRange_Beam.prefab
+  uploadId: 858350

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 392df39977ac912459a4319fe66dffa7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Electric/Materials/M_Rubber_B.mat
+  uploadId: 858350

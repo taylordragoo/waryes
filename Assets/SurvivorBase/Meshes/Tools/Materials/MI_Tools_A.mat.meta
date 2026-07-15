@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4458fa27c97923f489f8633402fafb82
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Tools/Materials/MI_Tools_A.mat
+  uploadId: 858350

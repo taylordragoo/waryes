@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6d510bbb2313e544092aa42c7a9a410d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Floor/Materials/MI_WoodFloor_C.mat
+  uploadId: 858350

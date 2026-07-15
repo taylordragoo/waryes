@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9631f57445e47e8848703b153c2cb57, type: 3}
+  m_Name: RailingsDataTypeB
+  m_EditorClassIdentifier: 
+  railings:
+  - side: 0
+    prefab: {fileID: 2162645521997900484, guid: 6b220b2d2e1715242963dfc5c1bbf48b, type: 3}
+  - side: 2
+    prefab: {fileID: 3502933216950643430, guid: 93737f3ddad9ad34d89e862f1529820e, type: 3}
+  - side: 4
+    prefab: {fileID: 6572646929093651080, guid: 8ac8b12e2c017e4478026672175c1ab2, type: 3}
+  - side: 5
+    prefab: {fileID: 7575577645255443172, guid: aabbe8cf6250c7142942a3c04c46601c, type: 3}
+  - side: 1
+    prefab: {fileID: 3750067232357406012, guid: d494e8156ee056b40bb3dd2326f87b05, type: 3}
+  - side: 3
+    prefab: {fileID: 6979721064698777319, guid: c189e1c6863386d448ee2217e4e612ae, type: 3}

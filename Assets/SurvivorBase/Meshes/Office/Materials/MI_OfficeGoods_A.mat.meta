@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: feae4e1b091f1574285d87d74fa56927
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Office/Materials/MI_OfficeGoods_A.mat
+  uploadId: 858350

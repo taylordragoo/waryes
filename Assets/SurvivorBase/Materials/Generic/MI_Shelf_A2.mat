@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_Shelf_A2
+  m_Shader: {fileID: 4800000, guid: 1956761772f608a4985e707203019e37, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ARM_ON
+  - _METALLIC_CONSTANT_ON
+  m_InvalidKeywords:
+  - _MAT2_COLORTEXTURE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Material_Texture2D_0:
+        m_Texture: {fileID: 2800000, guid: abc00000000007311669963327206240, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_1:
+        m_Texture: {fileID: 2800000, guid: abc00000000017396517681603578664, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_2:
+        m_Texture: {fileID: 2800000, guid: abc00000000010211452542594674054, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_3:
+        m_Texture: {fileID: 2800000, guid: abc00000000016495030042928663313, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_5:
+        m_Texture: {fileID: 2800000, guid: abc00000000010211452542594674054, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BakedNormal:
+        m_Texture: {fileID: 2800000, guid: abc00000000014974086189499053042, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mat1_BaseTexture:
+        m_Texture: {fileID: 2800000, guid: abc00000000012436328587221969967, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mat1_Base_Normal:
+        m_Texture: {fileID: 2800000, guid: abc00000000006103509228571946067, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mat1_RoughnessT:
+        m_Texture: {fileID: 2800000, guid: abc00000000014223320513168256840, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mat2_BaseTexture:
+        m_Texture: {fileID: 2800000, guid: abc00000000007041358304285632009, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mat2_Base_Normal:
+        m_Texture: {fileID: 2800000, guid: abc00000000006103509228571946067, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mat2_RoughnessT:
+        m_Texture: {fileID: 2800000, guid: abc00000000014223320513168256840, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Mask_Variation_A1:
+        m_Texture: {fileID: 2800000, guid: abc00000000008775636167068768934, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_VertexBlend_Mask:
+        m_Texture: {fileID: 2800000, guid: abc00000000013913144832383490117, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ARM: 1
+    - _Brightness: 1
+    - _ColorMask: 0
+    - _Contrast: 1
+    - _Desaturation: 0
+    - _DstBlend: 0
+    - _Global_G: 1.1
+    - _Mask_In_ARM: 0
+    - _Mat1_BakedMaskUV: 0
+    - _Mat1_BakedNormal: 0
+    - _Mat1_BakedUV1: 1
+    - _Mat1_BaseColor: 1
+    - _Mat1_ColorTexture: 0
+    - _Mat1_Metallic: 0
+    - _Mat1_Roughness: 0.5
+    - _Mat1_RoughnessTexture: 0
+    - _Mat1_TextureDetails: 0.327
+    - _Mat1_UV: 0.77
+    - _Mat2_BaseColor: 3.75
+    - _Mat2_ColorTexture: 1
+    - _Mat2_Metallic: 0
+    - _Mat2_Roughness: 0
+    - _Mat2_RoughnessTexture: 0
+    - _Mat2_UV: 2
+    - _Metallic: 0
+    - _Metallic_Constant: 1
+    - _Normal_Power: 0.00015
+    - _Roughness: 1
+    - _SrcBlend: 1
+    - _UV: 1
+    - _UVSec: 0
+    - _UseColor: 0
+    - _UseColor_2: 0
+    - _VColor_G_Scale: 1.37
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - LocalObjectBoundsMax: {r: 100, g: 100, b: 100, a: 0}
+    - LocalObjectBoundsMin: {r: 0, g: 0, b: 0, a: 0}
+    - View_BufferSizeAndInvSize: {r: 1920, g: 1080, b: 0.00052, a: 0.00092}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Mat1_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Mat2_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

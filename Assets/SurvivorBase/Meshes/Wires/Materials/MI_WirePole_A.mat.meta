@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f0b3bf5bd2d70f44c96f86f68d631fb2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Wires/Materials/MI_WirePole_A.mat
+  uploadId: 858350

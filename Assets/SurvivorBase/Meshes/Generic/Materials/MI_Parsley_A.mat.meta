@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b4f44e82e2d02e40955774d43eb7ff8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_Parsley_A.mat
+  uploadId: 858350

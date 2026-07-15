@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7af173c5d2429e840b4ca378bef24a7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Prefabs/CarsStatic/SM_Van.prefab
+  uploadId: 858350

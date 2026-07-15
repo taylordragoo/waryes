@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b1cbfa76cdbf6b43bd024d7396cdfac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Generic/MI_Glass_A_Red.mat
+  uploadId: 858350

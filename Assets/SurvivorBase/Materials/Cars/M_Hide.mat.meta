@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 98249586ad4b6f44b8447c1852efc318
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Cars/M_Hide.mat
+  uploadId: 858350

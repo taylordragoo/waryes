@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 33cca3b3c6e129e4fbae73225238a883
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Materials/Containers/MI_GasStationTile_Grey.mat
+  uploadId: 858350

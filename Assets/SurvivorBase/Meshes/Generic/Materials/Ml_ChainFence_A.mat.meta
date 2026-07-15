@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: db4b98583bf47c944afe76bb0301519a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/Ml_ChainFence_A.mat
+  uploadId: 858350

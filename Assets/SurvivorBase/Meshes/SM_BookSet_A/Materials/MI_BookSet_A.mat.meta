@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 23610549061244348b752311e67805ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/SM_BookSet_A/Materials/MI_BookSet_A.mat
+  uploadId: 858350

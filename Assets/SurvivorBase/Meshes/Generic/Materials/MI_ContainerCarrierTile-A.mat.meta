@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97d43335ca306d84590d5fe4a8185d59
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_ContainerCarrierTile-A.mat
+  uploadId: 858350

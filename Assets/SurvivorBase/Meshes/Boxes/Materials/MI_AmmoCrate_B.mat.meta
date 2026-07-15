@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cab0b5e7f93da2042b3bfdc9b465b98c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Boxes/Materials/MI_AmmoCrate_B.mat
+  uploadId: 858350

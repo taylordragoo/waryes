@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39dd2cb664844738ad54812fcb95372, type: 3}
+  m_Name: SelectSideDataTypeB
+  m_EditorClassIdentifier: 
+  sides:
+  - sideType: 0
+    icon: {fileID: 2800000, guid: 3177d3ab7d331df4eb8eb58cd5010438, type: 3}
+  - sideType: 1
+    icon: {fileID: 2800000, guid: bc33bc85ad0777a45a65fb2267ffd22e, type: 3}
+  - sideType: 2
+    icon: {fileID: 2800000, guid: fb51fe5bc0c314c468d421e86af7768b, type: 3}
+  - sideType: 3
+    icon: {fileID: 2800000, guid: 5d161358c5ddc8d4583baa684795c374, type: 3}
+  - sideType: 4
+    icon: {fileID: 2800000, guid: 426a46a910196f741a4a4b68dda8e7af, type: 3}
+  - sideType: 5
+    icon: {fileID: 2800000, guid: 9d64b3124c38f6142ad9fd12c4586c0c, type: 3}
+  - sideType: 6
+    icon: {fileID: 2800000, guid: f0371f0014e4a874f86a9f8afe39c7e3, type: 3}
+  - sideType: 7
+    icon: {fileID: 2800000, guid: 7bf9cd83407899a4c96915ca751d9010, type: 3}
+  moduleData: {fileID: 11400000, guid: 35faa4dd123431f488db16d214d5e1d7, type: 2}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8eb82c55410d3f34893d0b940b1a144f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/PoleSystem/Materials/MI_MetalWall_A.mat
+  uploadId: 858350

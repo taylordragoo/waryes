@@ -1,6 +1,0 @@
-{
-  "name": "Warno HUD",
-  "description": "A UI layout recreating the HUD from the strategy game Warno, built with React and Tailwind CSS.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

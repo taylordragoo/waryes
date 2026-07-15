@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b062902864467f646b21d6f20e6fc1ad
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Tools/Materials/MI_GardenTrowel.mat
+  uploadId: 858350

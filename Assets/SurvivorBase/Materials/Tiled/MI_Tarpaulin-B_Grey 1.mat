@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_Tarpaulin-B_Grey 1
+  m_Shader: {fileID: 4800000, guid: 0f4cd5bb0343b1c41907c3d8410479c2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _NON_METALLIC_ON
+  m_InvalidKeywords:
+  - _COLOR_CHANGE_A_ON
+  - _COLOR_CHANGE_B_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Material_Texture2D_0:
+        m_Texture: {fileID: 2800000, guid: abc00000000014704430781150216498, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_1:
+        m_Texture: {fileID: 2800000, guid: abc00000000014704430781150216498, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_2:
+        m_Texture: {fileID: 2800000, guid: abc00000000005108768468632361397, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_3:
+        m_Texture: {fileID: 2800000, guid: abc00000000007883115212031302381, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_4:
+        m_Texture: {fileID: 2800000, guid: abc00000000007883115212031302381, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_5:
+        m_Texture: {fileID: 2800000, guid: abc00000000007968598970695047443, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Material_Texture2D_6:
+        m_Texture: {fileID: 2800000, guid: abc00000000007968598970695047443, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo_A:
+        m_Texture: {fileID: 2800000, guid: abc00000000007883115212031302381, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo_B:
+        m_Texture: {fileID: 2800000, guid: abc00000000007883115212031302381, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: abc00000000003080473556662597310, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: abc00000000009428763281507424020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic_A:
+        m_Texture: {fileID: 2800000, guid: abc00000000009428763281507424020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic_B:
+        m_Texture: {fileID: 2800000, guid: abc00000000009428763281507424020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: abc00000000014704430781150216498, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_A:
+        m_Texture: {fileID: 2800000, guid: abc00000000014704430781150216498, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_B:
+        m_Texture: {fileID: 2800000, guid: abc00000000014704430781150216498, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness_A:
+        m_Texture: {fileID: 2800000, guid: abc00000000009428763281507424020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness_B:
+        m_Texture: {fileID: 2800000, guid: abc00000000009428763281507424020, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Add_Mask: 0
+    - _Add_Mask_Rough: 0
+    - _Add_Normal: 0
+    - _Brightness: 1.6
+    - _Brightness_A: 0.65
+    - _Brightness_B: 1
+    - _Color_Change_A: 1
+    - _Color_Change_B: 1
+    - _Desaturation: 0
+    - _Desaturation_A: 0
+    - _Desaturation_B: 0
+    - _DstBlend: 0
+    - _Global_G: 1.1
+    - _Layer_Swap: 0
+    - _Non_Metallic: 1
+    - _Rough_A: 0
+    - _Rough_B: 1
+    - _Rough_in_Alpha: 0
+    - _SrcBlend: 1
+    - _UV: 0.58
+    - _UVSec: 0
+    - _UV_B: 1
+    - _UV_Split: 0
+    - _Use_LayerB_UV: 0
+    - _Use_WornLevel: 0
+    - _VColor_G_Scale: 1.37
+    - _Worn_Level: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - LocalObjectBoundsMax: {r: 100, g: 100, b: 100, a: 0}
+    - LocalObjectBoundsMin: {r: 0, g: 0, b: 0, a: 0}
+    - View_BufferSizeAndInvSize: {r: 1920, g: 1080, b: 0.00052, a: 0.00092}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _Color_A: {r: 0.5051442, g: 0.5566038, b: 0.4279548, a: 0}
+    - _Color_B: {r: 0.5639018, g: 0.6037736, b: 0.504094, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _UV_Separate: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

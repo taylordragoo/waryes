@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 42bdce3e4809ad44c828767a75ea63b6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Cargo/Materials/MI_Plastic-A1-Opacity.mat
+  uploadId: 858350

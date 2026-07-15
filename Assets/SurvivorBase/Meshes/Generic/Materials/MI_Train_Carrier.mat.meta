@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 26e975718ce3dd647a99327f71e8ca11
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Generic/Materials/MI_Train_Carrier.mat
+  uploadId: 858350

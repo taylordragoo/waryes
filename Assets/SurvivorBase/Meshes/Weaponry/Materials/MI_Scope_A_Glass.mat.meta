@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f6cbfed365b1ff84c88277d9c568ddd9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Weaponry/Materials/MI_Scope_A_Glass.mat
+  uploadId: 858350

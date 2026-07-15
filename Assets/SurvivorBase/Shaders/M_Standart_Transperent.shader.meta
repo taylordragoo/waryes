@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 171ec3252d6e6cf47b7e8d25329d144e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Shaders/M_Standart_Transperent.shader
+  uploadId: 858350

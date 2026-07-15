@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a9658b6b9d450f87e91d9c84cd3ddd, type: 3}
+  m_Name: ContainerData
+  m_EditorClassIdentifier: 
+  containers:
+  - name: 0
+    icon: {fileID: 2800000, guid: ead03e28891ff604b93047f33f750d89, type: 3}
+    prefab: {fileID: 1855801720899601461, guid: e1cdb2718d0a13f4abf2c44d137cc8b1, type: 3}
+    selectSideData: {fileID: 11400000, guid: db8bda52e244114438d9b6a4544a6ffd, type: 2}
+    optionStackModules:
+    - name: Stairs
+      prefab: {fileID: 1030973662, guid: abc00000000003434658249268004467, type: 3}
+      icon: {fileID: 2800000, guid: 05c25dd2f4ebf5649b481470e00dbd4f, type: 3}
+      defaultPosition: {x: -2, y: 0, z: 6}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+    - name: Floor
+      prefab: {fileID: 1030972275, guid: abc00000000008988348098226847130, type: 3}
+      icon: {fileID: 2800000, guid: b99183a1c6c91244ba24b20975a92dce, type: 3}
+      defaultPosition: {x: -3, y: 2.8, z: 6}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+    - name: Light
+      prefab: {fileID: 1030974981, guid: 9cd65b032a3d350449ff6640ca13ef01, type: 3}
+      icon: {fileID: 2800000, guid: 815ea0e892b67e04f8a1b7634178ee6b, type: 3}
+      defaultPosition: {x: -1.465, y: 2.933, z: 3.012}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 1}
+    floorStates:
+    - icon: {fileID: 2800000, guid: 61c2304196d1895428f5f87e51cba7f0, type: 3}
+      prefab: {fileID: 4597483751743793432, guid: 0d283217f6c4e904d934c3a8e1424fda, type: 3}
+      localPosition: {x: 0, y: 0, z: 0}
+    - icon: {fileID: 2800000, guid: 1d1be480f01b6684b803662e2150f769, type: 3}
+      prefab: {fileID: 8683545964380143953, guid: b78b6246f4ee14f43ba76e8ec4088c38, type: 3}
+      localPosition: {x: -0.17, y: 0, z: 3.008}
+    - icon: {fileID: 2800000, guid: 6b3f0108bd230be45a10fae66c35595e, type: 3}
+      prefab: {fileID: 2987709593622989782, guid: 2cad5392befe4d04387a2b7702b69c64, type: 3}
+      localPosition: {x: 0, y: 0, z: 0}
+    - icon: {fileID: 2800000, guid: 0030722f7d2b1ba4abecce6ff057b533, type: 3}
+      prefab: {fileID: 8212102484887345851, guid: 470c886b349a9534d897171b87dc6b61, type: 3}
+      localPosition: {x: 0, y: 0, z: 0}
+    railingsData: {fileID: 11400000, guid: f1e9ba9528d64e0428373370e62c932b, type: 2}
+    railingsIcon: {fileID: 2800000, guid: e3180acb320db5143ba52afa123c031f, type: 3}
+  - name: 1
+    icon: {fileID: 2800000, guid: d0f70d074179bb344a95eba3cc0c30bc, type: 3}
+    prefab: {fileID: 5599769517016920704, guid: 4df56371a56f6eb43b889cafbe97d66e, type: 3}
+    selectSideData: {fileID: 11400000, guid: 57437b440353d254ca265fe85ed61dde, type: 2}
+    optionStackModules:
+    - name: Stairs
+      prefab: {fileID: 1030973662, guid: abc00000000003434658249268004467, type: 3}
+      icon: {fileID: 2800000, guid: 05c25dd2f4ebf5649b481470e00dbd4f, type: 3}
+      defaultPosition: {x: -2, y: 0, z: 6}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+    - name: Floor
+      prefab: {fileID: 1030972275, guid: abc00000000008988348098226847130, type: 3}
+      icon: {fileID: 2800000, guid: b99183a1c6c91244ba24b20975a92dce, type: 3}
+      defaultPosition: {x: -3, y: 2.8, z: 9}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+    - name: Light
+      prefab: {fileID: 1030974981, guid: abc00000000014001478757539893765, type: 3}
+      icon: {fileID: 2800000, guid: 815ea0e892b67e04f8a1b7634178ee6b, type: 3}
+      defaultPosition: {x: -2.89, y: 2.8, z: 4.564}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+    floorStates:
+    - icon: {fileID: 2800000, guid: 61c2304196d1895428f5f87e51cba7f0, type: 3}
+      prefab: {fileID: 8212102484887345851, guid: b74472620d295b74aa354e5b56b3ada7, type: 3}
+      localPosition: {x: 0, y: 0, z: 0}
+    - icon: {fileID: 2800000, guid: 1d1be480f01b6684b803662e2150f769, type: 3}
+      prefab: {fileID: 4532200550101633591, guid: ecea883eb9d98d94a96ce9df24a7c605, type: 3}
+      localPosition: {x: -0.17, y: 0, z: 4.577}
+    - icon: {fileID: 2800000, guid: 6b3f0108bd230be45a10fae66c35595e, type: 3}
+      prefab: {fileID: 2014258525313389128, guid: 94d5c570187be864da0d0f37b65e621a, type: 3}
+      localPosition: {x: 0, y: 0, z: 0}
+    - icon: {fileID: 2800000, guid: 0030722f7d2b1ba4abecce6ff057b533, type: 3}
+      prefab: {fileID: 8212102484887345851, guid: 470c886b349a9534d897171b87dc6b61, type: 3}
+      localPosition: {x: 0, y: 0, z: 0}
+    railingsData: {fileID: 11400000, guid: cf6d8b4dad1675f489ebc376f3b9b891, type: 2}
+    railingsIcon: {fileID: 2800000, guid: e3180acb320db5143ba52afa123c031f, type: 3}
+  - name: 2
+    icon: {fileID: 2800000, guid: 5c47f46204eb8a14b968920ed720c020, type: 3}
+    prefab: {fileID: 9067665621759830792, guid: 1ca471c6abb2e0343a78812c1604322b, type: 3}
+    selectSideData: {fileID: 11400000, guid: 22af7be39a6778d48a8a1c2a0a139e06, type: 2}
+    optionStackModules:
+    - name: Stairs
+      prefab: {fileID: 1030973662, guid: abc00000000003434658249268004467, type: 3}
+      icon: {fileID: 2800000, guid: 05c25dd2f4ebf5649b481470e00dbd4f, type: 3}
+      defaultPosition: {x: -2, y: 0, z: 6}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+    - name: Floor
+      prefab: {fileID: 1030972275, guid: abc00000000008988348098226847130, type: 3}
+      icon: {fileID: 2800000, guid: b99183a1c6c91244ba24b20975a92dce, type: 3}
+      defaultPosition: {x: -3, y: 2.8, z: 3}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+    - name: Light
+      prefab: {fileID: 1030974981, guid: abc00000000014001478757539893765, type: 3}
+      icon: {fileID: 2800000, guid: 815ea0e892b67e04f8a1b7634178ee6b, type: 3}
+      defaultPosition: {x: -2.89, y: 2.8, z: 1.5}
+      defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+    floorStates:
+    - icon: {fileID: 2800000, guid: 61c2304196d1895428f5f87e51cba7f0, type: 3}
+      prefab: {fileID: 6544732782169170842, guid: 5b48de3351302ff47871cc5968bab17c, type: 3}
+      localPosition: {x: 0, y: 0, z: 0}
+    - icon: {fileID: 2800000, guid: 0030722f7d2b1ba4abecce6ff057b533, type: 3}
+      prefab: {fileID: 8212102484887345851, guid: 470c886b349a9534d897171b87dc6b61, type: 3}
+      localPosition: {x: 0, y: 0, z: 0}
+    railingsData: {fileID: 11400000, guid: 421a208e9e5f88e459cb47dd1f44c5ca, type: 2}
+    railingsIcon: {fileID: 2800000, guid: e3180acb320db5143ba52afa123c031f, type: 3}

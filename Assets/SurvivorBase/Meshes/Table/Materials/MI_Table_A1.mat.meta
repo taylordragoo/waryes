@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5bcb5c0ed5706c4da74dce6596d47da
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Table/Materials/MI_Table_A1.mat
+  uploadId: 858350

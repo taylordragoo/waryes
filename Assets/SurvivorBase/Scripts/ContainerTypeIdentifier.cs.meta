@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d0065c401cdc86441bd7c7c2f7bcffaa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Scripts/ContainerTypeIdentifier.cs
+  uploadId: 858350

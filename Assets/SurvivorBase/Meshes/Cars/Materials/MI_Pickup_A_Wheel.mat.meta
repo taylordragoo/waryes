@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8e1f4547c088ee4c88a3d383ccec962
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Cars/Materials/MI_Pickup_A_Wheel.mat
+  uploadId: 858350

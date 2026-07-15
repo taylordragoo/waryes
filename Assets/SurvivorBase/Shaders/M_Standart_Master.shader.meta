@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1956761772f608a4985e707203019e37
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Shaders/M_Standart_Master.shader
+  uploadId: 858350

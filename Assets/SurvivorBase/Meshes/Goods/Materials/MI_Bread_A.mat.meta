@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af36c3ad3ac61c347a1d1a603b838d83
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 315274
+  packageName: Survivor Base
+  packageVersion: 1.6
+  assetPath: Assets/SurvivorBase/Meshes/Goods/Materials/MI_Bread_A.mat
+  uploadId: 858350

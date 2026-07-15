@@ -16,6 +16,12 @@ namespace uSimRTS
         public uSimRTS_Commander playerCommander;
         [Tooltip("units spawner. internal use.")]
         public uSimRTS_UnitSpawner spawner;
+
+        void Awake()
+        {
+            uSimRTS_ProjectScale.ApplyToGameplayRoot(this);
+        }
+
         // Start is called before the first frame update
         void Start()
         {
