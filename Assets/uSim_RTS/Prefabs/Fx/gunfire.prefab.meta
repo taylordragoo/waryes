@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e65c96559c8ae7a4bb0377a0122b49e5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Fx/gunfire.prefab
+  uploadId: 629793

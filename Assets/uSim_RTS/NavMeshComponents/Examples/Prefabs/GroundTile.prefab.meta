@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1f4492f15da844ebae2767c08ef4aab
+timeCreated: 1430816526
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Prefabs/GroundTile.prefab
+  uploadId: 629793

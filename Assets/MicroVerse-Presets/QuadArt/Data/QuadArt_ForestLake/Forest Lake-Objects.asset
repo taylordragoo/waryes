@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Forest Lake-Objects
+  m_EditorClassIdentifier: 
+  contentType: 3
+  author: Rowlan
+  packName: Forest Lake
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/forestlake-259547
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 1018964040462830654, guid: e3d244dde5fa126428b55ef3eb9b6bb1, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 293b548ab5104aa4eb6633f4be1df6bf, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 5867569775133383274, guid: ce33846414b71a243b015dfb230629ba, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 76c9da5a72cb10c4eb4d7fd09bf66342, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 6490532152045484027, guid: 5434812f005e0cb439f8fbf7efaccfc2, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 6d0aea1bd3fc74a47b0e00223bf7bae7, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0088511258d7da0489d943c29e923231
+timeCreated: 1477924439
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 92f4afa3e25264f5b964937ccea49ff2, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/NavMeshComponents/Scripts/NavMeshLink.cs
+  uploadId: 629793

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 457e5b63988f2884f81eefd85067686e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Resources/Ore.prefab
+  uploadId: 629793

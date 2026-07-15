@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aa5e350cac25d774f892f6dae9ab2984
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Buildings/BlueBarracs.prefab
+  uploadId: 629793

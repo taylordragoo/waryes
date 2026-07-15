@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46d69f622d1354ee0820b7921e262b38
+timeCreated: 1430814488
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Prefabs/BanyanTree.prefab
+  uploadId: 629793

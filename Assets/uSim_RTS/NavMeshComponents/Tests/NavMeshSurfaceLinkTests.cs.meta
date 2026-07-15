@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e30907c16fa1cca4e9ff4957e1a42c0a
+timeCreated: 1490606318
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Tests/NavMeshSurfaceLinkTests.cs
+  uploadId: 629793

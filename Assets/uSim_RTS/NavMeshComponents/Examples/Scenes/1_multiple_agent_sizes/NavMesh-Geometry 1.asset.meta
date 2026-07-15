@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e3102e40dfee54ef4b9e05daad8492d3
+timeCreated: 1479298643
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scenes/1_multiple_agent_sizes/NavMesh-Geometry
+    1.asset
+  uploadId: 629793

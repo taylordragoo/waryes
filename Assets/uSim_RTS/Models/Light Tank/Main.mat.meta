@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea38f7ff94893d146b63f78d55fd3400
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Models/Light Tank/Main.mat
+  uploadId: 629793

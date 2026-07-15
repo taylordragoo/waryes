@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce14fa5b73ea9524c9a1d4895b3498c2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_ForestLake/Forest Lake-Objects.asset
+  uploadId: 812492

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: abc83dc7f944f3a4bb6a8b47d1c16c93
+timeCreated: 1477036743
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs
+  uploadId: 629793

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d031da4d6dd58114c87a266b14ec328e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_ForestLake/Prefabs/Global/Skybox.prefab
+  uploadId: 812492

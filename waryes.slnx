@@ -1,4 +1,28 @@
 ﻿<Solution>
-  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="SingularityGroup.HotReload.Editor.csproj" />
+  <Project Path="JBooth.MicroVerseCore.csproj" />
+  <Project Path="NavMeshComponentsExamples.csproj" />
+  <Project Path="JBooth.MicroVerseCore.Editor.csproj" />
+  <Project Path="SingularityGroup.HotReload.Runtime.csproj" />
+  <Project Path="JBooth.MicroVerseCore.Demo.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="JBooth.MicroVerseRoadShader.Editor.csproj" />
+  <Project Path="Rowlan.MicroVerse.Presets_4.Runtime.csproj" />
+  <Project Path="SingularityGroup.HotReload.Runtime.Public.csproj" />
+  <Project Path="JBooth.MicroVerse.ShaderPackagerEditor.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Rowlan.MicroVerse.Presets_2.Runtime.csproj" />
+  <Project Path="Rowlan.MicroVerse.Presets_3.Runtime.csproj" />
+  <Project Path="NavMeshComponents.csproj" />
+  <Project Path="Rowlan.MicroVerse.Presets_4.Editor.csproj" />
+  <Project Path="Rowlan.MicroVerse.Presets.Editor.csproj" />
+  <Project Path="NavMeshComponentsTestsEditmode.csproj" />
+  <Project Path="Rowlan.MicroVerse.Presets_3.Editor.csproj" />
+  <Project Path="JBooth.MicroVerseCore.Demo.TimeOfDay.Editor.csproj" />
+  <Project Path="JBooth.MicroVerseCore.Roads.Demo.csproj" />
+  <Project Path="NavMeshComponentsEditor.csproj" />
+  <Project Path="NavMeshComponentsTestsPlaymode.csproj" />
+  <Project Path="JBooth.MicroVerseCore.Demo.TimeOfDay.Runtime.csproj" />
+  <Project Path="Rowlan.MicroVerse.Presets.Runtime.csproj" />
+  <Project Path="NavMeshComponentsExamplesEditor.csproj" />
 </Solution>

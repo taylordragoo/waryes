@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 37eeed90f77de5d48babf28ffd0658ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_RuralGasStation/Rural
+    Gas Station-Vegetation.asset
+  uploadId: 812492

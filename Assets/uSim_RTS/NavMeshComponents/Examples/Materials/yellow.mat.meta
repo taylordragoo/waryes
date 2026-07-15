@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c07befab8ca1540368e662cfe2fddf6b
+timeCreated: 1430813764
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Materials/yellow.mat
+  uploadId: 629793

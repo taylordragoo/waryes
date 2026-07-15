@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cd086ea8b8430fc41bed60666fae34b7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_LookoutTower/URP/Lookout
+    Tower-Objects-URP.asset
+  uploadId: 812492

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Modular Houses-Biomes
+  m_EditorClassIdentifier: 
+  contentType: 5
+  author: Rowlan
+  packName: Modular Houses
+  id: https://assetstore.unity.com/packages/3d/environments/urban/modular-houses-residential-update-225821
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 7317867749583067111, guid: c11fb71628b43884292a30a457e1eb29, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 097c9682e6b4fc24ea9c7cd5afe191e1, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3813752805977159533, guid: 1418fbea363d37f4b91e0f94766b4a2a, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 924b42c980e263a468e8bc73aaf04e39, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 6723486922972998538, guid: da2fe6d88f603e2478d974453e0a39b1, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: dd3d4c663ee3df4498862a4b57c4b58b, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2486382260528467500, guid: af7f5590158fec94eb3cdcf5b8cb0d22, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 9cee6d097b6af9e44a9d73b25f234685, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 36df127609bad0941a6e83737a9d7c05
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_ForestLake/Prefabs/Vegetation/Mixed
+    Pine Forest.prefab
+  uploadId: 812492

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 37057576ccae7594598a25e36406b527
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Tests/Editor/NavMeshComponentsTestsEditmode.asmdef
+  uploadId: 629793

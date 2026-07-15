@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: cea3a39b71a6f48999d2f884b3b41239
+timeCreated: 1474998981
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Editor/NavMeshPrefabInstanceEditor.cs
+  uploadId: 629793

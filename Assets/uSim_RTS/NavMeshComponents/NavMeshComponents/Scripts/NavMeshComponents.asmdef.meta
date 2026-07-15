@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a1bc5e902ef4c444a91ed6ecfffdab6
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+  uploadId: 629793

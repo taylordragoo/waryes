@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9f08548367c6c04eaa6950cc5368091
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_RockyDesert/Prefabs/Vegetation/Sparse
+    Grass.prefab
+  uploadId: 812492

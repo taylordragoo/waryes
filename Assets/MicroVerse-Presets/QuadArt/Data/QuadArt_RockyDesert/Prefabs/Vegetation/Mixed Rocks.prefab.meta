@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c795f18dd6621e749b9acc8a14e4a3ec
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_RockyDesert/Prefabs/Vegetation/Mixed
+    Rocks.prefab
+  uploadId: 812492

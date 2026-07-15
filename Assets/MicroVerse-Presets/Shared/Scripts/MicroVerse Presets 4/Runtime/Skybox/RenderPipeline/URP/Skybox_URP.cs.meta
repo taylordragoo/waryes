@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 551eb0dea0357324f98b92f9408f93f2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/Shared/Scripts/MicroVerse Presets 4/Runtime/Skybox/RenderPipeline/URP/Skybox_URP.cs
+  uploadId: 812492

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3d7570417dc1b7d44be088081b1720a1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Ammo/cannon bullet.prefab
+  uploadId: 629793

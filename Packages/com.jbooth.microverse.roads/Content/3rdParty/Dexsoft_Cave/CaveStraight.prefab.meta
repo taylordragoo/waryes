@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c7555c187ebff44f3bb92d325708be9b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208590
+  packageName: MicroVerse - Roads
+  packageVersion: 1.7.43
+  assetPath: Packages/com.jbooth.microverse.roads/Content/3rdParty/Dexsoft_Cave/CaveStraight.prefab
+  uploadId: 817924

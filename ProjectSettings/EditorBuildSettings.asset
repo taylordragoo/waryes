@@ -6,8 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  m_UseUCBPForAssetBundles: 0
+    path: Assets/uSim_RTS/Scenes/Loader.unity
+    guid: d6b0d9b1be829a641b94a1817f31bb39
+  - enabled: 1
+    path: Assets/uSim_RTS/Scenes/MainMenu.unity
+    guid: d1eeb2602b409fa43a51dc4f978aae46
+  - enabled: 1
+    path: Assets/uSim_RTS/Scenes/Example.unity
+    guid: 59aaac9608cd6ea4ba964aaec088e67d
+  - enabled: 1
+    path: Assets/uSim_RTS/Scenes/Example_2.unity
+    guid: e9269a63bf308504fa452e1ce57b3d35
+  m_configObjects: {}

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c751607f01df8445c86b012985b8b152
+timeCreated: 1430998893
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scripts/SpawnPrefabOnKeyDown.cs
+  uploadId: 629793

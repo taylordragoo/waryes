@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c9ea827aaa4145c8900e81ca1395aae
+timeCreated: 1430813789
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Materials/brightgreen.mat
+  uploadId: 629793

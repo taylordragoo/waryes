@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 62012671a38a9f545ad6a1777a644049
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Models/FxSource/MapView.renderTexture
+  uploadId: 629793

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: de9471865f6527f4d8d469336c53ccdf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Fx/ParticlesFX_Destroy.prefab
+  uploadId: 629793

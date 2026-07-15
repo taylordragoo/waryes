@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Rural Gas Station-Biomes
+  m_EditorClassIdentifier: 
+  contentType: 5
+  author: Rowlan
+  packName: Rural Gas Station
+  id: https://assetstore.unity.com/packages/3d/environments/urban/rural-gas-station-305220
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 5037078160466734976, guid: 9e26cee50a916b54587aeeb984f978d6,
+      type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: d3c93e7aa8f8db04c916b122e58e87d9, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 4902753785593512535, guid: 0ea40164c8f073644960339919ab3eac,
+      type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: ddf9266e48b1f094d93da9b5c62e8759, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2509066183260514036, guid: 3e579ad191d45004bb0f94404c647c02,
+      type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 7f01d329bd54fec459335c02a49f87cf, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1931968720911600154, guid: cd56f54315e40384d93203a24564b1db,
+      type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: a04cce0bbe72e24408d3e30affe68aeb, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8450344136006062035, guid: 89696a25ac97ab14597659a7fce2cd07,
+      type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: c7ee9186e95113542993b573cd29212c, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2132030081836774375, guid: 83e08056f87b68f4396766e958214b58,
+      type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 11492cf858adeb643a6b9005e0e06c8e, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

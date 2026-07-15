@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Lookout Tower-Vegetation
+  m_EditorClassIdentifier: 
+  contentType: 2
+  author: Rowlan
+  packName: Lookout Tower
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/lookout-tower-249265
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 2940928124860112330, guid: 4cabb8b07ef941a4f9831266c41756a4, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 738272fc260935b4dba1f2dea3dc5718, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2952207172006753516, guid: c81797fbf27b6de40880dce3e9d2fa9e, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: e0d5aa3a6e8504e419089e729afa078b, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3985811928570802224, guid: 22cbb2b38a277e3448a77319bfd20855, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 74080cef2ea396e4abc42d8928ac3270, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1393102507487648728, guid: f6550eb94f78ff34f89204ab3e7e80d7, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 5ebc4cc4099a4d8429e245b95224123a, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8072110831726858328, guid: 63de9165b25ba9e4cbc880070ba7c813, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 06d8c6566d6c76c448349c93776a1af0, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 114715819188894953, guid: b77f2e2b2fd952947b071cdda184d06f, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 8093bc321a8e87f4586f248e10763173, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3549794246014744934, guid: 8bc9b9010e9cbac4581f13605747db09, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 8bf3c67b8fc7b67479f70bf51c7d8652, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 7404100644149973104, guid: 1471803ed9489a04a82eed25e2a5bcef, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: ebe073b0cd983084787f5e2208dd985f, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 5158019737123015291, guid: 68d4449eac0066b4182eb1c920628378, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 4c857c563f62be9408a9dcf1c884529d, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 7984445168743446729, guid: 456714b72d74e9543ad9269492bcce57, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 164b36d843d146c46bf36bbed95e08ad, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 4393675892163981767, guid: 42917c1621a3e9a4a89f71e767305ab4, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 64139f183c337c84fb062dc4d4687ead, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 4803782797044420134, guid: de78d034602d0c94a9e36dd2c5f665dc, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 38d1c90cf932f594e9aa2997e79665f8, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 592107889738197312, guid: a3c01f946c6e62143bf30412627e3b5d, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 26d2f28fa3e9ae648ba0c60ae0c35f28, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 7859261946042878387, guid: 909e54b095a052e48afa34f5cdf2d1bb, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 9c27aac63331add40b15543929be554e, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3469521646384107496, guid: 80b18d01572fdd0459e82e31c74989c1, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 944c529c84448eb40a4ac6128a8d7d55, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 7287887241119775280, guid: fa49a0af823d8514a822ba9cea99ef68, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 43f30223268ee4e41848c590b40ca0c0, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3877754479470118760, guid: 3f0fc00095a80524ca719916bd0683fc, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 507ce92008d1ce0498ccb449b12eb86e, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8118296608495702214, guid: 69fd72f714e31d04a9ef2642a436c58f, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: f444b91490ece7f4dbe7a922bc7f84da, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b027dc2f8ab323b4da0aba92be836fde
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_RockyDesert/Prefabs/Global/Clouds.prefab
+  uploadId: 812492

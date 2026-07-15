@@ -1,0 +1,19 @@
+{
+    "name": "Rowlan.MicroVerse.Presets_3.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6bf9d12c8968c4c0e8a1d8545e5deac6",
+        "GUID:beee74e1e28a5df44b66781ffa9b130c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

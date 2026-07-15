@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Forest Lake-Vegetation
+  m_EditorClassIdentifier: 
+  contentType: 2
+  author: Rowlan
+  packName: Forest Lake
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/forestlake-259547
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 8916079025205325739, guid: 7c8ef2bfed257ca4889c3f62787857c6, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 77b79f3376580774fb7a37c114df4326, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 5204429602859244396, guid: de7f1e9788b270245acaa973854cf72a, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 0f49de002beb6f149aee1b6c530cb0e1, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 4059269377578303601, guid: fa75a63924d6d2643b662760bab08b02, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: cb82c3873bb1182469a39b0b7749cd98, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 6065335624090651717, guid: 678ebcdb6d894404db87e26eeaa76049, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 52ef222e1bbc65a449fd4ce75a0e6eb7, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 187291779626277875, guid: a866c015387fbcc4b90d7f3eb5f2dcc2, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 8add3de222050764e9a0387c233202de, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8522869474362097181, guid: 5dbdc2a526a7c824d82a21eda4231cac, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: abc484a8976d8c048afa09dbf0642504, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 5632723156147984023, guid: 4f8536613a818464fb9adf051a735aeb, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 5887bbeb59a761a4a9ef663f54069aaf, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 5457917293873153634, guid: 062bcacac95364240988fabe83a6c130, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: cd7256fa5ead62a4a807a10b98d48f44, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3431431323249167420, guid: df204f643680b7344a23b58ab8ba42b6, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 43ba86fe62057e944a23d74d5f591ee0, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1244326588710648670, guid: b0661f836dd6b54439ff391e795ae41c, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 76d19a0a2631a044e99830937bd5e0dc, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3285413249604942926, guid: d6023e1119a0e874fad907e186754a82, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: e6776d1a85274ab48afe5a5e3b179164, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1993458630149998512, guid: 39453a4c46bc4c34d8fd89657b9f5f00, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 361b213a3a1fd7c4190c2dd1e940d344, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1182182390231458444, guid: 41fecf6758969bc43924f82ba6d478f7, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 5ab6e76b13b9cf2409b0dfc78132f603, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 78536605469573517, guid: dd002384da577b047a116eec41bdef18, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 05581fc39924dba4c9a29a96cb53b9db, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 236526406788611113, guid: e989a3f717e00124090ab07f3e02cdc5, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 0b844f1ea2114364aa2bf11c47cd0b20, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2906553600009244579, guid: 2ba890e2e4679724298ad821cf423fa4, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 031b6f9f010638b4a8204020d7fbf33c, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 248818624959977031, guid: 73d3975c0d4762f4bbb221eb3c2c13db, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 36f2d25033fa795438803938930aadf4, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8265184896212940022, guid: 36df127609bad0941a6e83737a9d7c05, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: a738f14ca65cea543856e054e5ede6be, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

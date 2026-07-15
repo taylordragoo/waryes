@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be419239cd48b7046989cd6ef9bf78ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 15600000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Scenes/Content/2/Terrains/New Terrain.asset
+  uploadId: 629793

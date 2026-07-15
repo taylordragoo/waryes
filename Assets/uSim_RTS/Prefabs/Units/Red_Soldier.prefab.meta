@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4324ff3dc42fb3a4d9b68f731dd6d1ad
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Units/Red_Soldier.prefab
+  uploadId: 629793

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Rocky Desert-Biomes
+  m_EditorClassIdentifier: 
+  contentType: 5
+  author: Rowlan
+  packName: Rocky Desert
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/rockydesert-209196
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 6798252519552900247, guid: af60d621c585bd0438159a274641df2b, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 02d6203ef319b68449ef4bb3b624e019, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8717658878401471872, guid: 747c90f46c0ea3c48b0d1744ea670c92, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: d5ab7766504c71940affdf0691c7dd21, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 7383596610218314660, guid: e47b57f77e640bc48aa056b5b6e9ce11, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 7a0d1e1fa7723dc4eba27223cd6cee17, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2751732740747572296, guid: 16b7a4fc88e618748b7200c764f8cd2d, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: f28534560f1ac124c889c60fffd9f4fe, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 6670249938124611768, guid: aa406f5e198fb174abdea62781aa0819, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: e19bf25a0ac52e647b40f715364f528e, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

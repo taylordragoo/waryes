@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9bfaa57130eb14f6d8c52e272c368f13
+timeCreated: 1431424678
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scenes/7b_dungeon_tile_prefabs.unity
+  uploadId: 629793

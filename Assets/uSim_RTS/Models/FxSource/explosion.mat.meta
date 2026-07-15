@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1d375081d7c86d9408b1ded620f876fb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Models/FxSource/explosion.mat
+  uploadId: 629793

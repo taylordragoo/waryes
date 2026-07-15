@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: acc9c8c736ce4a64b8a2b0642c57e84d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_LookoutTower/Prefabs/Biomes/Grass.prefab
+  uploadId: 812492

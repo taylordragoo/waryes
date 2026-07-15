@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aa6a048f8f53edd4f96b3f91ecb1bdf4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Scenes/Example_2/NavMesh-Nav Mesh.asset
+  uploadId: 629793

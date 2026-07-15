@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dcc719b770f19184cb3750635c09fe53
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Buildings/RedVehicleFactory.prefab
+  uploadId: 629793

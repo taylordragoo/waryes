@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c30917f4b799363449111c70faf1f165
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Grid/TileObject.prefab
+  uploadId: 629793

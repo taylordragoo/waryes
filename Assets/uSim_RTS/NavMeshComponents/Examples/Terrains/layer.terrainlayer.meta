@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9f4e51767bd6244418c3f1234ffeac48
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Terrains/layer.terrainlayer
+  uploadId: 629793

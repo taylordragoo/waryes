@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af7f5590158fec94eb3cdcf5b8cb0d22
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_ModularHouses/Prefabs/Biomes/Mixed
+    Forest.prefab
+  uploadId: 812492

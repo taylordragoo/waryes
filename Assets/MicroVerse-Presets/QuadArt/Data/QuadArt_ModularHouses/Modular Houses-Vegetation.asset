@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Modular Houses-Vegetation
+  m_EditorClassIdentifier: 
+  contentType: 2
+  author: Rowlan
+  packName: Modular Houses
+  id: https://assetstore.unity.com/packages/3d/environments/urban/modular-houses-residential-update-225821
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 9103566656580182859, guid: 2269871128baa9b458daf9baeabb0069, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 66d92453a9c6a3849a8f4294129c46c3, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2790295163969458020, guid: 3b1314426f5bc93448afcc43e499c11d, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 74456def63fe9b149a12c87d9dedd09d, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 6950708218712675792, guid: 2e570a25350ae3843ba15225a357c14f, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 5673f4c45a376fe468143721d10c790a, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1589638411064755896, guid: f3b7f4fd6fab53b41a41466b5da62e0e, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: f34292ce631313442b7a1b56f1c6bb85, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 4516568150305639587, guid: 8a7f62c39b1007d4e857485a3910cbaa, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: c1c5d76246a2b9f4da49ee4442ce1e74, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1431980167987885981, guid: fa10174b3ce3720439417f1d39a1ad5c, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 8eda20d17bcf23041af9bd5cb87a6416, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 755968673734711257, guid: dbaddf38b4ee6574283c97fc90372054, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: ee76733cd7defe3468c4cba74d9d7300, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 4991980423443936158, guid: fadcf5867b882bd42a3e5585d07c617f, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 45e22040f8efd4843bb82820316cfcd9, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 6232425543019466230, guid: 549c0fdc6828dd54688a9adbb1649de3, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 8ca17ed1179ae464589d0e5b620072f6, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

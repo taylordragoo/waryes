@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6a7d761cfd0cc1f4ea27cd6d8ade1b9e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Units/_unit_MFB_blue.prefab
+  uploadId: 629793

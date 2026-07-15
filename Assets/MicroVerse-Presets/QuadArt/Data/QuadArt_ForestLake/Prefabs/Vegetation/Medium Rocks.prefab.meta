@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0661f836dd6b54439ff391e795ae41c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_ForestLake/Prefabs/Vegetation/Medium
+    Rocks.prefab
+  uploadId: 812492

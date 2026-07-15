@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ace035bc8356c5f49a844d8ea149502b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_LookoutTower/Lookout
+    Tower-Ad-Biomes.asset
+  uploadId: 812492

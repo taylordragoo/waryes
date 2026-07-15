@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3adb56b3302734c8d8e5a18699302e85
+timeCreated: 1430743212
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Materials/floor.mat
+  uploadId: 629793

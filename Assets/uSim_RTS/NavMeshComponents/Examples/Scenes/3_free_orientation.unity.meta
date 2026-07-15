@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de3b928c3e7da4138bdb4cf0c0c43b2f
+timeCreated: 1431090429
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scenes/3_free_orientation.unity
+  uploadId: 629793

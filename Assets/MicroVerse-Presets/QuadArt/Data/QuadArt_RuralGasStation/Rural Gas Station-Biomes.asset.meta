@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a7e4d16e26ab7a34b873c1a3b78ee1c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_RuralGasStation/Rural
+    Gas Station-Biomes.asset
+  uploadId: 812492

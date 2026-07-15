@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cb26dfb8a6dc13d4694930a677734539
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_ModularHouses/Modular
+    Houses-Ad-Vegetation.asset
+  uploadId: 812492

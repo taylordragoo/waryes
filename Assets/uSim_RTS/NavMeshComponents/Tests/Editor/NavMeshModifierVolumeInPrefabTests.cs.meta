@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7c613dde3ccb0e341b35ce1b859480c3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Tests/Editor/NavMeshModifierVolumeInPrefabTests.cs
+  uploadId: 629793

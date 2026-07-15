@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e1c6a0a64beb49ec96272beefa468a5
+timeCreated: 1430813651
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Materials/brown.mat
+  uploadId: 629793

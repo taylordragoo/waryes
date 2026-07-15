@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 132c89750e8df584a9e525ba6d4e47b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Models/Materials/gunfire.mat
+  uploadId: 629793

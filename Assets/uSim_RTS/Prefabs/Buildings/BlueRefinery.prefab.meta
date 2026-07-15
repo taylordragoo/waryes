@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 62adb4e4ba664d04d94357b52c5e4a36
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Buildings/BlueRefinery.prefab
+  uploadId: 629793

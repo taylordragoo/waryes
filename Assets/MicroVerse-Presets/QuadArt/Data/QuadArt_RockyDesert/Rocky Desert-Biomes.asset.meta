@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 45c8b0d21f9008848a1615af1d11c2c1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_RockyDesert/Rocky Desert-Biomes.asset
+  uploadId: 812492

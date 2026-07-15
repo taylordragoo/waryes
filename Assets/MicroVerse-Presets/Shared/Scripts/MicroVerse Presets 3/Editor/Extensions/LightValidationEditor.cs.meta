@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2714b0231088d0f498fa1be069da4b6e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/Shared/Scripts/MicroVerse Presets 3/Editor/Extensions/LightValidationEditor.cs
+  uploadId: 812492

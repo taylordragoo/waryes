@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 803949e9342dc5f419de63e63bb2f54f
+timeCreated: 1490606318
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Tests/NavMeshSurfaceModifierVolumeTests.cs
+  uploadId: 629793

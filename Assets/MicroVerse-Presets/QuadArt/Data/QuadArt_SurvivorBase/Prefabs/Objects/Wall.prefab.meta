@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 99889b64ce5000142a07b8a48df26e1a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_SurvivorBase/Prefabs/Objects/Wall.prefab
+  uploadId: 812492

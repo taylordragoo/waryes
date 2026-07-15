@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cddc6687864d6b64c9b8ba240cd5cdf0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Scripts/uSimRTS_BalisticAmmo.cs
+  uploadId: 629793

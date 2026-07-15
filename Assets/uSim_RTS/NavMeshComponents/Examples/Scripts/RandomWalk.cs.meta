@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: dd76b8ee2dbcf4be6998e917c65cd6ed
+timeCreated: 1431075769
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scripts/RandomWalk.cs
+  uploadId: 629793

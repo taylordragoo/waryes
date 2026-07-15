@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5fa5f98da204da04b94e33f2748d5933
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Models/Materials/Belt.mat
+  uploadId: 629793

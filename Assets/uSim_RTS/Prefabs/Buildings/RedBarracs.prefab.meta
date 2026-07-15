@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b76217bb321cbf3429b93420ccf97818
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Buildings/RedBarracs.prefab
+  uploadId: 629793

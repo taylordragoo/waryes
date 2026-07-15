@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ffe37a2da94d94f41879ebd9c005ec68
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Scripts/uSimRTS_UnitRadar.cs
+  uploadId: 629793

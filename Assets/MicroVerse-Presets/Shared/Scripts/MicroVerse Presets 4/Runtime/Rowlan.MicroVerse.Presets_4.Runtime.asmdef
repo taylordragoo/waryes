@@ -1,0 +1,23 @@
+{
+    "name": "Rowlan.MicroVerse.Presets_4.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6bf9d12c8968c4c0e8a1d8545e5deac6",
+        "GUID:8990947d903fec847b19d9f51781afb1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "USING_URP"
+        }
+    ],
+    "noEngineReferences": false
+}

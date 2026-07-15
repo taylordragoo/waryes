@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7186e4ec31ca3459da36b9faf2049a09
+timeCreated: 1431423977
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Prefabs/Materials/BanyanBranches.mat
+  uploadId: 629793

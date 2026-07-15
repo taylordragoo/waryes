@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c56d911659e3c4b499e11b47a73a4dbb
+timeCreated: 1430743428
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scripts/DungeonManager.cs
+  uploadId: 629793

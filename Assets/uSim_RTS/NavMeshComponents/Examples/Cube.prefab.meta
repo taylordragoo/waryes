@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86232f43ed7fd4fc5a9098ccda13d2ef
+timeCreated: 1477957945
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Cube.prefab
+  uploadId: 629793

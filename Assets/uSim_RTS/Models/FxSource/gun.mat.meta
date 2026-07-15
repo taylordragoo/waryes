@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be7822a5cafcf0a49836d035342f2415
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Models/FxSource/gun.mat
+  uploadId: 629793

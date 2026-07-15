@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c51b0adb92c12e4f8146f46036e9ea2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Scenes/Content/1/Terrains/NewLayer.terrainlayer
+  uploadId: 629793

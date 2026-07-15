@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Forest Lake-Biomes
+  m_EditorClassIdentifier: 
+  contentType: 5
+  author: Rowlan
+  packName: Forest Lake
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/forestlake-259547
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 5037078160466734976, guid: 325f08581d68540489e8f724c6aaed39, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 75407b800cf621b42bbb1fc81b5e1f49, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 4902753785593512535, guid: 6a9b84b5587420f4ca51f614913d6398, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 6348397ea08b33c4081c6f5882ab670a, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2509066183260514036, guid: 9a232f87449633f40886e08a5466fdd1, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 8c4380761dcf033408e40dec2445aab6, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1931968720911600154, guid: 755f876611c3eca4fbf46c326047e991, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 43579f86d9803ad429bbc0780bc599b7, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8450344136006062035, guid: a308d7cb928b1ae49928369c25d17223, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: c06100cd83b697941b6254900c2f05c5, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

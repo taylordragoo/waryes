@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbb7810f1eb4dd84bbcdb6fc5c38fe32
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_RuralGasStation/Prefabs/Objects/Gas
+    Station.prefab
+  uploadId: 812492

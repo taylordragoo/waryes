@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8ffb108cd40c6444e9828f4350253c13
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Scripts/uSimRTS_Refinery.cs
+  uploadId: 629793

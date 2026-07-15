@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Lookout Tower-Texture
+  m_EditorClassIdentifier: 
+  contentType: 1
+  author: Rowlan
+  packName: Lookout Tower
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/lookout-tower-249265
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 3482553670412098325, guid: ce148764fab429441a389306b4aab96f, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: f6f1416e4208b1d4d967c22b8696c223, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3602557002499531389, guid: 7aec4d3b8a43331478a41ec24d2d7474, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: d6e0d22808a0ae24386158829e89521d, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3470742824527660149, guid: cb32cf4acf754474fa6be2b308085312, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 9db06cc7abd1a0e4f865e06dbcff837b, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2746220660322222578, guid: 4f9705af8b7372040b52e7edb5258596, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 1b66d0bcdd4120f428d997a84cf637b6, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8100e37c882f1ce4280a0c6421592a5a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_SurvivorBase/Prefabs/Vegetation/Medium
+    Rocks.prefab
+  uploadId: 812492

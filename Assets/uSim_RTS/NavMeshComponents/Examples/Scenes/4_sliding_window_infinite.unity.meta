@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e51437cfed50e46d58183a8174327158
+timeCreated: 1430735143
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scenes/4_sliding_window_infinite.unity
+  uploadId: 629793

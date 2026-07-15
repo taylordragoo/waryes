@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a6edeb548568b484583871b8cc4a72de
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_ModularHouses/Terrain
+    Layers/Grass.terrainlayer
+  uploadId: 812492

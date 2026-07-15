@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: baf394111657b494ea479a62c56c3d3b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Units/_unit_tank_red.prefab
+  uploadId: 629793

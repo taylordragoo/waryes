@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0bd327fa5ee3c45a09e0e35c6c9958ea
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208590
+  packageName: MicroVerse - Roads
+  packageVersion: 1.7.43
+  assetPath: Packages/com.jbooth.microverse.roads/Content/3rdParty/Dexsoft_Cave/collection/dexsoft_rocks_ad.asset
+  uploadId: 817924

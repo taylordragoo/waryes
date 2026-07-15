@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e94cc15b14048cb48ab701349c6b49e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Scripts/uSimRTS_MFB.cs
+  uploadId: 629793

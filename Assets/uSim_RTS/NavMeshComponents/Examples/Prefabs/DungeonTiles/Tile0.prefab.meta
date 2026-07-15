@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7d7ea54c92e3c4ca3bdd081adb6953e3
+PrefabImporter:
+  externalObjects: {}
+  addedSourceAssetObjects:
+  - {fileID: 238891995730992468, guid: 7d7ea54c92e3c4ca3bdd081adb6953e3, type: 2}
+  isPrefabVariant: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Prefabs/DungeonTiles/Tile0.prefab
+  uploadId: 629793

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1257f6f14e3a90046b20269cc3751b07
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/Shared/Scripts/MicroVerse Presets 4/Editor/Extensions/Enviro/EnviroPresetInstanceEditor.cs
+  uploadId: 812492

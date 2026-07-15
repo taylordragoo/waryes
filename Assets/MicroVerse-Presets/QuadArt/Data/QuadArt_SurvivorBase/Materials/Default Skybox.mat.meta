@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 49a9ca34f7159ec478639b98b9718555
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_SurvivorBase/Materials/Default
+    Skybox.mat
+  uploadId: 812492

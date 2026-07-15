@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d5440f69c97a641f19160f152dfb503f
+timeCreated: 1430998263
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scenes/2_drop_plank.unity
+  uploadId: 629793

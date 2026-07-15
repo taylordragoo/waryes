@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b6c30eb361e754b75ac25325c5d024bd
+timeCreated: 1430921534
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Scripts/FreeCam.cs
+  uploadId: 629793

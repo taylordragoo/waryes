@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Lookout Tower-Biomes
+  m_EditorClassIdentifier: 
+  contentType: 5
+  author: Rowlan
+  packName: Lookout Tower
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/lookout-tower-249265
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 979179546914540535, guid: acc9c8c736ce4a64b8a2b0642c57e84d, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 598a9704f08101b46803bb475e1b8dcf, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 7700621738107601854, guid: 65d5f93bae65bff418d0284c370bf51f, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: a8ede0b6e1f5e764183b7b2610ffd155, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 7105818825863384521, guid: c4569c1230c3ef745ab24dcc8a52a8dc, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: ad0f34565645de94483db14ce968fa84, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 9032285786185201763, guid: 36e41e6f25469ed489db3f991be72a07, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 8d760a51ffc8d444db1f503685864060, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 458786054039058485, guid: 8b8f8c902c0eed24ab574c096048e692, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 51b362149339b1f41951c9b073caea3c, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

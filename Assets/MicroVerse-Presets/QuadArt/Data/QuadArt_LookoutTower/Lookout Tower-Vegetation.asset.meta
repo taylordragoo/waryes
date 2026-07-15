@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2a6c53293e9973d4b8301c0da91f6325
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_LookoutTower/Lookout
+    Tower-Vegetation.asset
+  uploadId: 812492

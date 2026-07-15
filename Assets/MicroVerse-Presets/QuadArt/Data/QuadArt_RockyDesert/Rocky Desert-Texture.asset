@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Rocky Desert-Texture
+  m_EditorClassIdentifier: 
+  contentType: 1
+  author: Rowlan
+  packName: Rocky Desert
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/rockydesert-209196
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 6039940469916671051, guid: f56b35b4c1ba7c54bb6693140213e255, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 63eb87cc0530f424fbde3cb3758f3d76, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8080616868474929303, guid: 55f8df9a3bc6a294fad65ac10dad2866, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 0f56362af13e2ac41a60be699b871533, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 3280757431509517814, guid: c6fc2eff733f56f45b9a0eb6e1e16e51, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 822f4ea51ab447840b305c0d498491bf, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1678273483058835272, guid: 2aca015caf2bb7f4dbee3d73ce1877d4, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: c38df979779f91f4fb1638c72951c3f1, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 6229922403581155217, guid: f865aa8a374fab64a9b21d21a411b1b6, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: bde4effca6156f248868978357b699f1, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 6193877979389569961, guid: b146a94b65d2a9746b961abf235a4e39, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 68ab05b3dc275384ea03fae32bd4457e, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

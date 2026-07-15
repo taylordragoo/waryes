@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c582ef917b515824c8f5a023bda1ae1b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Prefabs/Units/Blue_Soldier.prefab
+  uploadId: 629793

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Rural Gas Station-Texture
+  m_EditorClassIdentifier: 
+  contentType: 1
+  author: Rowlan
+  packName: Rural Gas Station
+  id: https://assetstore.unity.com/packages/3d/environments/urban/rural-gas-station-305220
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 1435021082079115082, guid: 705e98420acbceb4db84bf7d033e06f6, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 47a7027b0d725f9468ba35aa12928b06, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8515975672540954519, guid: 33810e2d8be2d4344a98601347826bd7, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 23a5741e6070c9048884c863089d4099, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 5390725310562059917, guid: dbcdb18490166ff4cbcd5abbdef98016, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 263ac42a34dcfb94db85343ab9f0955d, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 614383569035130287, guid: 637e0d8ac614d0a4baa2de267d1e5400, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: e3fc9d58bae784d4bb9b13076a51aed4, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 9108372100163023646, guid: 29f5af83eec4ee04bb5e6a01a1618e04, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: c7c09c28152532b45bbe449544404b09, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 2105628309122401827, guid: 6feaaf2de3c52054e87053ab4d06263d, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: d5b198cd67d57444ea74c93276f08e1c, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 7390505731748254388, guid: 4481c284fe043e74b9dac0392b3c6b32, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 29afdb1ab6c64614a97f70c7e7aba36c, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8889796248592225684, guid: 16891c7b61d99074691f337cc455e2f5, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: a6fa94c0e04ed6f4a9d655d7e1f4e745, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}

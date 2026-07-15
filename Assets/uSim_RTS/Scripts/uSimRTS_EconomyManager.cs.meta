@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5c6f6948ba4256644a5bc3d63a5af42a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Scripts/uSimRTS_EconomyManager.cs
+  uploadId: 629793

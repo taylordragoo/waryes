@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7fe68b270a144d14e97162950cbca8b6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/Models/Ammo/Ballistics/fireball.mat
+  uploadId: 629793

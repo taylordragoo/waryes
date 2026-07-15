@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b971acff8e797044586c98f152d7fec2
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/Shared/Scripts/MicroVerse Presets 3/Editor/Rowlan.MicroVerse.Presets_3.Editor.asmdef
+  uploadId: 812492

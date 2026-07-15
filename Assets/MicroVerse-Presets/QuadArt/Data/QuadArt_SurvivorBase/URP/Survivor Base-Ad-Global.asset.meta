@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 126c17a8b5ad61e49aa9dba45aa1bd33
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_SurvivorBase/URP/Survivor
+    Base-Ad-Global.asset
+  uploadId: 812492

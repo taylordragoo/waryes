@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ba581a056ef591146aab1695e4ec4c48
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_RuralGasStation/Prefabs/Objects/Van.prefab
+  uploadId: 812492

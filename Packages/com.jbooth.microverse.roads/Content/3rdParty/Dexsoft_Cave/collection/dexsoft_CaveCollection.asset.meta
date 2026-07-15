@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5464960aa10144bf08f94766fdc7d9d9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208590
+  packageName: MicroVerse - Roads
+  packageVersion: 1.7.43
+  assetPath: Packages/com.jbooth.microverse.roads/Content/3rdParty/Dexsoft_Cave/collection/dexsoft_CaveCollection.asset
+  uploadId: 817924

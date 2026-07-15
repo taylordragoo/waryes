@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 868f340f81db84c3e86303402850136b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 208590
+  packageName: MicroVerse - Roads
+  packageVersion: 1.7.43
+  assetPath: Packages/com.jbooth.microverse.roads/Content/3rdParty/Dexsoft_Cave/CaveConnection.prefab
+  uploadId: 817924

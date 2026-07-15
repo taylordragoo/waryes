@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1458b555daa1b854f95eb2032f9aaf99
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 314214
+  packageName: Biomes and Presets for MicroVerse + QuadArt
+  packageVersion: 1.4.0
+  assetPath: Assets/MicroVerse-Presets/QuadArt/Data/QuadArt_LookoutTower/HDRP/Materials/MI_Water
+    100.mat
+  uploadId: 812492

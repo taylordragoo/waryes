@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 94511fbc8bb3e4f94aa3a65d6f584b9d
+timeCreated: 1431423810
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271421
+  packageName: uSim RTS Classic
+  packageVersion: 1.0
+  assetPath: Assets/uSim_RTS/NavMeshComponents/Examples/Terrains/Islands.asset
+  uploadId: 629793

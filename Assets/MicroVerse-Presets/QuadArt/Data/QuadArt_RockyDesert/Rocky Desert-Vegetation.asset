@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
+  m_Name: Rocky Desert-Vegetation
+  m_EditorClassIdentifier: 
+  contentType: 2
+  author: Rowlan
+  packName: Rocky Desert
+  id: https://assetstore.unity.com/packages/3d/environments/landscapes/rockydesert-209196
+  renderPipeline: 0
+  previewGradient: {fileID: 0}
+  contents:
+  - prefab: {fileID: 3233362642996103129, guid: a9f08548367c6c04eaa6950cc5368091, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: bfdd91b43bf3b124f8830c2b71e464b4, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 4453505210376701236, guid: a92a37a7badd1ac4db44a5e0f972cc3a, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 16ec2ca5d44592747941f3464f1711b8, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1284209642433741308, guid: adeaa00416dc6b74791ffbe5754fe913, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 180de95c08c06634e9da78c44cb66f7c, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 830327704136572557, guid: 612fd1ff0f6ebe24b840dafc09fac6f1, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: a5512b1567d1c0840b5a05bdc17075f9, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 637548581779701454, guid: 536fb9bbafa14b74db3e2ddf15f57dc5, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 814b7fdbad3ae384a8bb91d63056ce7a, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 8389199447420705515, guid: 2a500cbdec7b2c547b17c9c286eb8822, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 95cdb17fc8268b842bb6bc798b692557, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 1761160010914632965, guid: c795f18dd6621e749b9acc8a14e4a3ec, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: 79e01a2d2602aa94c81ce804fec22f91, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  - prefab: {fileID: 870858368351217586, guid: 1605592efc567714abf34b31107795e5, type: 3}
+    childPrefab: {fileID: 0}
+    previewImage: {fileID: 2800000, guid: af1c7ffe6a9393e46900032131f57f8c, type: 3}
+    previewAsset: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: 
+  systemConfig: {fileID: 0}
