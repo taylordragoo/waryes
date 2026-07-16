@@ -13,10 +13,10 @@
   <Project Path="Rowlan.MicroVerse.Presets_2.Runtime.csproj" />
   <Project Path="Rowlan.MicroVerse.Presets_3.Runtime.csproj" />
   <Project Path="NavMeshComponents.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Rowlan.MicroVerse.Presets_4.Editor.csproj" />
   <Project Path="Rowlan.MicroVerse.Presets.Editor.csproj" />
   <Project Path="NavMeshComponentsTestsEditmode.csproj" />
-  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Rowlan.MicroVerse.Presets_3.Editor.csproj" />
   <Project Path="JBooth.MicroVerseCore.Demo.TimeOfDay.Editor.csproj" />
   <Project Path="JBooth.MicroVerseCore.Roads.Demo.csproj" />
