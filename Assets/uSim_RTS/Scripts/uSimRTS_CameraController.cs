@@ -13,8 +13,13 @@ namespace uSimRTS
         public float zoomSpeed = 100f;
         [Tooltip("Camera rotation sensitivity.")]
         public float rotSpeed = 10f;
+        [Tooltip("Pointer travel in pixels required before a right click becomes a camera-rotation drag.")]
+        [Min(0f)] public float rotationDragThreshold = 8f;
         public Transform worldCamRoot;
         public bool rotating;
+        public bool WasRotationDragThisGesture { get; private set; }
+
+        Vector2 rotationPointerStart;
         // Start is called before the first frame update
         void Start()
         {
@@ -60,18 +65,36 @@ namespace uSimRTS
                 Vector3 mov = new Vector3(-mouseDelta.x * Time.deltaTime * scrollSpeed, 0f, -mouseDelta.y * Time.deltaTime * scrollSpeed);
                 ScrollWindow(mov);
             }
-            if (mouse.rightButton.isPressed)
+            Vector2 mousePosition = mouse.position.ReadValue();
+
+            if (mouse.rightButton.wasPressedThisFrame)
             {
+                rotationPointerStart = mousePosition;
                 rotating = false;
-                float rotS = mouseDelta.x * Time.deltaTime * rotSpeed;
-                if (rotS > 0.01f || rotS < -0.01f)
-                    rotating = true;
-
-                Vector3 rot = worldCamRoot.rotation.eulerAngles;
-                rot.y += rotS;
-
-                worldCamRoot.rotation = Quaternion.Euler(rot);
+                WasRotationDragThisGesture = false;
             }
+
+            if (mouse.rightButton.isPressed || mouse.rightButton.wasReleasedThisFrame)
+            {
+                if (!WasRotationDragThisGesture &&
+                    Vector2.Distance(rotationPointerStart, mousePosition) >= rotationDragThreshold)
+                {
+                    WasRotationDragThisGesture = true;
+                }
+
+                if (WasRotationDragThisGesture && mouse.rightButton.isPressed)
+                {
+                    rotating = true;
+                    float rotationAmount = mouseDelta.x * Time.deltaTime * rotSpeed;
+                    Vector3 rotation = worldCamRoot.rotation.eulerAngles;
+                    rotation.y += rotationAmount;
+
+                    worldCamRoot.rotation = Quaternion.Euler(rotation);
+                }
+            }
+
+            if (mouse.rightButton.wasReleasedThisFrame)
+                rotating = false;
         }
 
         void ScrollWindow (Vector3 movement)

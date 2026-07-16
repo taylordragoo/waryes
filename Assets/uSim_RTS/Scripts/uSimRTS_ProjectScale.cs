@@ -5,7 +5,7 @@ namespace uSimRTS
 {
     public static class uSimRTS_ProjectScale
     {
-        public const float WorldScale = 20f;
+        public const float WorldScale = 15f;
 
         // NavMeshAgent radius and height inherit transform scale, so keep these
         // in local units while the baked NavMesh uses their world-size values.

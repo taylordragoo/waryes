@@ -14,24 +14,32 @@ namespace uSimRTS.Editor
     public static class uSimRTS_RoadNavigationAuthoring
     {
         const string RoadAreaName = "Road";
+        const string RoadCenterAreaName = "RoadCenter";
         const string NavMeshAreasPath = "ProjectSettings/NavMeshAreas.asset";
         const string PrepareMenuPath = "Tools/uSim RTS/Navigation/Prepare MicroVerse Roads";
         const string PrepareAndBakeMenuPath = "Tools/uSim RTS/Navigation/Prepare MicroVerse Roads and Bake";
+        const string CenterVolumeName = "__uSimRTS Road Center Bake Volume";
+        const float CenterWidthRatio = 0.35f;
+        const float MinimumCenterWidth = 1.5f;
+        const float CenterVolumeHeight = 20f;
+        const float CenterVolumeOverlapRatio = 0.5f;
 
         static List<BakeOperation> pendingBakeOperations;
+        static List<GameObject> pendingCenterBakeVolumes;
         static List<string> pendingScenePaths;
         static PreparationResult pendingPreparationResult;
 
         [MenuItem(PrepareMenuPath)]
         public static void PrepareOpenScenes()
         {
-            if (!TryPrepareOpenScenes(out PreparationResult result))
+            if (!TryPrepareOpenScenes(out PreparationResult result, false))
                 return;
 
             Debug.Log(
                 $"Prepared MicroVerse road navigation: {result.roadSystems} RoadSystem roots, " +
                 $"{result.roads} roads, {result.intersections} intersections, " +
-                $"{result.addedModifiers} new NavMeshModifier components. Save the open scene before closing it.");
+                $"{result.addedModifiers} new NavMeshModifier components. " +
+                "Road-center ribbons are generated transiently by the Prepare and Bake command.");
         }
 
         [MenuItem(PrepareAndBakeMenuPath)]
@@ -43,8 +51,13 @@ namespace uSimRTS.Editor
                 return;
             }
 
-            if (!TryPrepareOpenScenes(out PreparationResult result))
+            CleanupCenterBakeVolumes();
+
+            if (!TryPrepareOpenScenes(out PreparationResult result, true))
+            {
+                CleanupCenterBakeVolumes();
                 return;
+            }
 
             Unity.AI.Navigation.NavMeshSurface[] surfaces =
                 Object.FindObjectsByType<Unity.AI.Navigation.NavMeshSurface>(
@@ -69,6 +82,7 @@ namespace uSimRTS.Editor
 
             if (bakeOperations.Count == 0)
             {
+                CleanupCenterBakeVolumes();
                 Debug.LogWarning(
                     "MicroVerse roads were prepared, but no active Unity AI Navigation NavMeshSurface was found in the open scenes. " +
                     "Add or enable a NavMeshSurface, then run the command again.");
@@ -108,6 +122,9 @@ namespace uSimRTS.Editor
             PreparationResult result = pendingPreparationResult;
             List<string> scenePaths = pendingScenePaths;
             int roadTriangles = CountNavMeshTriangles(NavMesh.GetAreaFromName(RoadAreaName));
+            int roadCenterTriangles = CountNavMeshTriangles(NavMesh.GetAreaFromName(RoadCenterAreaName));
+
+            CleanupCenterBakeVolumes();
 
             AssetDatabase.SaveAssets();
             bool scenesSaved = EditorSceneManager.SaveOpenScenes();
@@ -126,22 +143,33 @@ namespace uSimRTS.Editor
             Debug.Log(
                 $"Prepared and baked road navigation: {result.roadSystems} RoadSystem roots, " +
                 $"{result.roads} roads, {result.intersections} intersections, " +
-                $"{result.addedModifiers} new modifiers, {bakedSurfaces} persistent NavMeshSurface bake(s). " +
-                $"Road-area triangles: {roadTriangles}. Open scenes saved: {scenesSaved}.");
+                $"{result.addedModifiers} new modifiers, {result.centerVolumes} transient center volumes, " +
+                $"{bakedSurfaces} persistent NavMeshSurface bake(s). " +
+                $"Road triangles: {roadTriangles}; RoadCenter triangles: {roadCenterTriangles}. " +
+                $"Open scenes saved: {scenesSaved}.");
 
             if (roadTriangles == 0)
             {
                 Debug.LogWarning(
                     "The bake completed but produced no Road-area triangles. Verify that the NavMeshSurface includes the road layers and geometry.");
             }
+
+            if (roadCenterTriangles == 0)
+            {
+                Debug.LogWarning(
+                    "The bake completed but produced no RoadCenter-area triangles. Verify the MicroVerse roads have valid splines and widths.");
+            }
         }
 
-        static bool TryPrepareOpenScenes(out PreparationResult result)
+        static bool TryPrepareOpenScenes(out PreparationResult result, bool createCenterVolumes)
         {
             result = new PreparationResult();
 
-            if (!TryEnsureRoadArea(out int roadArea))
+            if (!TryEnsureNavigationAreas(out int roadArea, out int roadCenterArea))
                 return false;
+
+            if (createCenterVolumes)
+                pendingCenterBakeVolumes = new List<GameObject>();
 
             RoadSystem[] roadSystems = Object.FindObjectsByType<RoadSystem>(
                 FindObjectsInactive.Include,
@@ -168,7 +196,11 @@ namespace uSimRTS.Editor
                 Road[] roads = roadSystem.GetComponentsInChildren<Road>(true);
                 result.roads += roads.Length;
                 foreach (Road road in roads)
+                {
                     PrepareObject(road.gameObject, roadArea, preparedObjects, ref result);
+                    if (createCenterVolumes)
+                        result.centerVolumes += CreateRoadCenterVolumes(road, roadCenterArea);
+                }
 
                 Intersection[] intersections = roadSystem.GetComponentsInChildren<Intersection>(true);
                 result.intersections += intersections.Length;
@@ -211,16 +243,114 @@ namespace uSimRTS.Editor
             EditorSceneManager.MarkSceneDirty(target.scene);
         }
 
-        static bool TryEnsureRoadArea(out int roadArea)
+        static int CreateRoadCenterVolumes(Road road, int roadCenterArea)
         {
-            roadArea = NavMesh.GetAreaFromName(RoadAreaName);
-            if (roadArea >= 0)
+            if (road == null ||
+                road.splineContainer == null ||
+                road.splineContainer.Splines == null ||
+                road.splineContainer.Splines.Count == 0)
+            {
+                return 0;
+            }
+
+            float roadWidth = road.config != null
+                ? road.config.modelWidth
+                : 8f;
+            Vector3 roadScale = road.transform.lossyScale;
+            roadWidth *= Mathf.Max(Mathf.Abs(roadScale.x), Mathf.Abs(roadScale.z));
+
+            float centerWidth = Mathf.Max(MinimumCenterWidth, roadWidth * CenterWidthRatio);
+            float segmentSpacing = Mathf.Clamp(roadWidth * 0.75f, 4f, 12f);
+            int createdVolumes = 0;
+
+            for (int splineIndex = 0; splineIndex < road.splineContainer.Splines.Count; splineIndex++)
+            {
+                float splineLength = road.splineContainer.CalculateLength(splineIndex);
+                if (splineLength <= 0.01f)
+                    continue;
+
+                int segmentCount = Mathf.Max(1, Mathf.CeilToInt(splineLength / segmentSpacing));
+                Vector3 previousPosition = road.splineContainer.EvaluatePosition(splineIndex, 0f);
+
+                for (int segmentIndex = 1; segmentIndex <= segmentCount; segmentIndex++)
+                {
+                    float normalizedDistance = segmentIndex / (float)segmentCount;
+                    Vector3 currentPosition = road.splineContainer.EvaluatePosition(
+                        splineIndex,
+                        normalizedDistance);
+                    Vector3 planarDirection = currentPosition - previousPosition;
+                    planarDirection.y = 0f;
+
+                    if (planarDirection.sqrMagnitude <= 0.0001f)
+                    {
+                        previousPosition = currentPosition;
+                        continue;
+                    }
+
+                    GameObject volumeObject = new GameObject(CenterVolumeName)
+                    {
+                        hideFlags = HideFlags.HideAndDontSave,
+                        layer = 0
+                    };
+
+                    SceneManager.MoveGameObjectToScene(volumeObject, road.gameObject.scene);
+                    volumeObject.transform.SetPositionAndRotation(
+                        (previousPosition + currentPosition) * 0.5f,
+                        Quaternion.LookRotation(planarDirection.normalized, Vector3.up));
+
+                    Unity.AI.Navigation.NavMeshModifierVolume volume =
+                        volumeObject.AddComponent<Unity.AI.Navigation.NavMeshModifierVolume>();
+                    volume.area = roadCenterArea;
+                    volume.center = Vector3.zero;
+                    volume.size = new Vector3(
+                        centerWidth,
+                        CenterVolumeHeight,
+                        planarDirection.magnitude + (centerWidth * CenterVolumeOverlapRatio));
+
+                    pendingCenterBakeVolumes.Add(volumeObject);
+                    createdVolumes++;
+                    previousPosition = currentPosition;
+                }
+            }
+
+            return createdVolumes;
+        }
+
+        static void CleanupCenterBakeVolumes()
+        {
+            if (pendingCenterBakeVolumes == null)
+                return;
+
+            foreach (GameObject volumeObject in pendingCenterBakeVolumes)
+            {
+                if (volumeObject != null)
+                    Object.DestroyImmediate(volumeObject);
+            }
+
+            pendingCenterBakeVolumes = null;
+        }
+
+        static bool TryEnsureNavigationAreas(out int roadArea, out int roadCenterArea)
+        {
+            if (!TryEnsureNavMeshArea(RoadAreaName, 1f, out roadArea))
+            {
+                roadCenterArea = -1;
+                return false;
+            }
+
+            return TryEnsureNavMeshArea(RoadCenterAreaName, 1f, out roadCenterArea);
+        }
+
+        static bool TryEnsureNavMeshArea(string areaName, float cost, out int areaIndex)
+        {
+            areaIndex = NavMesh.GetAreaFromName(areaName);
+            if (areaIndex >= 0)
                 return true;
 
             Object[] settingsAssets = AssetDatabase.LoadAllAssetsAtPath(NavMeshAreasPath);
             if (settingsAssets.Length == 0)
             {
-                Debug.LogError($"Could not load {NavMeshAreasPath}; the Road NavMesh area was not created.");
+                Debug.LogError($"Could not load {NavMeshAreasPath}; the {areaName} NavMesh area was not created.");
                 return false;
             }
 
@@ -238,9 +368,9 @@ namespace uSimRTS.Editor
                 SerializedProperty area = areas.GetArrayElementAtIndex(i);
                 SerializedProperty name = area.FindPropertyRelative("name");
 
-                if (name.stringValue == RoadAreaName)
+                if (name.stringValue == areaName)
                 {
-                    roadArea = i;
+                    areaIndex = i;
                     return true;
                 }
 
@@ -250,18 +380,18 @@ namespace uSimRTS.Editor
 
             if (emptyArea < 0)
             {
-                Debug.LogError("No empty NavMesh area slot is available for the Road area.");
+                Debug.LogError($"No empty NavMesh area slot is available for the {areaName} area.");
                 return false;
             }
 
-            SerializedProperty roadAreaProperty = areas.GetArrayElementAtIndex(emptyArea);
-            roadAreaProperty.FindPropertyRelative("name").stringValue = RoadAreaName;
-            roadAreaProperty.FindPropertyRelative("cost").floatValue = 1f;
+            SerializedProperty areaProperty = areas.GetArrayElementAtIndex(emptyArea);
+            areaProperty.FindPropertyRelative("name").stringValue = areaName;
+            areaProperty.FindPropertyRelative("cost").floatValue = cost;
             settings.ApplyModifiedPropertiesWithoutUndo();
             EditorUtility.SetDirty(settingsAssets[0]);
             AssetDatabase.SaveAssets();
 
-            roadArea = emptyArea;
+            areaIndex = emptyArea;
             return true;
         }
 
@@ -404,6 +534,7 @@ namespace uSimRTS.Editor
             public int roads;
             public int intersections;
             public int addedModifiers;
+            public int centerVolumes;
         }
 
         readonly struct BakeOperation

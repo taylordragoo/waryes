@@ -35,6 +35,12 @@ namespace uSimRTS
         Vector2 startPos;
         public float deltaMouse;
         public RectTransform selectionBox;
+        [Tooltip("Pointer travel in pixels required before a left click becomes a box-selection drag.")]
+        [Min(0f)] public float selectionDragThreshold = 8f;
+
+        bool hadSelectedUnitsAtPress;
+        bool pointerPressConsumed;
+        bool selectionDragActive;
         // Start is called before the first frame update
         void Start()
         {
@@ -54,7 +60,12 @@ namespace uSimRTS
                 return;
 
             if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+            {
+                if (mouse.leftButton.wasReleasedThisFrame)
+                    CancelLeftPointerGesture();
+
                 return;
+            }
 
             Vector2 mousePosition = mouse.position.ReadValue();
             Ray dray = Camera.main.ScreenPointToRay(mousePosition);
@@ -78,65 +89,141 @@ namespace uSimRTS
                     SetNormalCursor();
             }
 
-            if (mouse.leftButton.wasReleasedThisFrame && selectedUnits.Count > 0 )
-            {
-              
-                Ray ray = Camera.main.ScreenPointToRay(mousePosition);
-                if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
-                {
-                    Debug.Log(hit.collider.name);
-
-                    if (uSimRTS_WorldSurface.IsWalkable(hit))
-                        SetSelectedUnitsWaypoint(hit.point);
-                    if(selectedUnits[0] != null)
-                    if(selectedUnits[0].GetComponent<uSimRTS_ResourceCollector>() != null)
-                    {
-                        if (hit.collider.GetComponent<uSimRTS_Refinery>() != null)
-                            selectedUnits[0].GetComponent<uSimRTS_ResourceCollector>().GoToRefinery(hit.collider.GetComponent<uSimRTS_Refinery>());
-                    }
-
-
-                    lastMouseHit = hit.point;
-                }
-            }
-
             if (mouse.leftButton.wasPressedThisFrame)
-            {
-                startPos = mousePosition;
-                Ray ray = Camera.main.ScreenPointToRay(mousePosition);
-                if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
-                {
-                    if (hit.collider.GetComponent<uSimRTS_UnitRadar>() != null)
-                    {
-                        uSimRTS_UnitRadar r = hit.collider.GetComponent<uSimRTS_UnitRadar>();
-                        if (r.GetComponent<uSimRTS_MFB>() != null)
-                            if (CheckSelected(r.GetComponent<uSimRTS_Unit>()))
-                                r.GetComponent<uSimRTS_MFB>().Deploy();
+                BeginLeftPointerGesture(mousePosition);
 
-                        if (r.side == uSimRTS_Manager.instance.playerSide && hit.collider.GetComponent<uSimRTS_Unit>() != null)
-                            SetSelectedUnit(hit.collider.GetComponent<uSimRTS_Unit>());
-                        else if (hit.collider.GetComponent<uSimRTS_Unit>() != null || hit.collider.GetComponent<uSimRTS_BaseBuilding>() != null)
-                            SetSelectedUnitsTarget(hit.collider.transform);
-                        
-                    }
-                   
-                }
-                
-            }
+            if (mouse.leftButton.isPressed)
+                UpdateLeftPointerGesture(mousePosition);
 
             if (mouse.leftButton.wasReleasedThisFrame)
+                CompleteLeftPointerGesture(mousePosition);
+
+            if (mouse.rightButton.wasReleasedThisFrame)
             {
-                EndSelectionBox();
+                bool wasRotationDrag = cameraController != null &&
+                    cameraController.WasRotationDragThisGesture;
+
+                if (ShouldClearSelectionOnRightRelease(wasRotationDrag))
+                    SetSelectionEmpty();
             }
-            if (mouse.leftButton.isPressed)
+        }
+
+        void BeginLeftPointerGesture(Vector2 mousePosition)
+        {
+            startPos = mousePosition;
+            deltaMouse = 0f;
+            hadSelectedUnitsAtPress = selectedUnits.Count > 0;
+            pointerPressConsumed = false;
+            selectionDragActive = false;
+
+            if (selectionBox != null)
+                selectionBox.gameObject.SetActive(false);
+
+            Ray ray = Camera.main.ScreenPointToRay(mousePosition);
+            if (!Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
+                return;
+
+            uSimRTS_UnitRadar unitRadar = hit.collider.GetComponent<uSimRTS_UnitRadar>();
+            if (unitRadar == null)
+                return;
+
+            pointerPressConsumed = true;
+            uSimRTS_Unit clickedUnit = hit.collider.GetComponent<uSimRTS_Unit>();
+            uSimRTS_MFB mobileBase = unitRadar.GetComponent<uSimRTS_MFB>();
+
+            if (mobileBase != null && clickedUnit != null && CheckSelected(clickedUnit))
+                mobileBase.Deploy();
+
+            if (unitRadar.side == uSimRTS_Manager.instance.playerSide && clickedUnit != null)
             {
-                UpdateSelectionBox(mousePosition);
+                SetSelectedUnit(clickedUnit);
+            }
+            else if (clickedUnit != null || hit.collider.GetComponent<uSimRTS_BaseBuilding>() != null)
+            {
+                SetSelectedUnitsTarget(hit.collider.transform);
+            }
+        }
+
+        void UpdateLeftPointerGesture(Vector2 mousePosition)
+        {
+            deltaMouse = Vector2.Distance(startPos, mousePosition);
+            if (deltaMouse < selectionDragThreshold)
+                return;
+
+            selectionDragActive = true;
+            pointerPressConsumed = true;
+            UpdateSelectionBox(mousePosition);
+        }
+
+        void CompleteLeftPointerGesture(Vector2 mousePosition)
+        {
+            if (selectionDragActive)
+                EndSelectionBox();
+            else if (selectionBox != null)
+                selectionBox.gameObject.SetActive(false);
+
+            if (ShouldIssueMoveOrder(
+                    hadSelectedUnitsAtPress,
+                    pointerPressConsumed,
+                    selectionDragActive) &&
+                selectedUnits.Count > 0)
+            {
+                IssueSelectedUnitsCommand(mousePosition);
             }
 
-            if (mouse.rightButton.wasPressedThisFrame && !cameraController.rotating)
+            ResetLeftPointerGesture();
+        }
+
+        void IssueSelectedUnitsCommand(Vector2 mousePosition)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(mousePosition);
+            if (!Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
+                return;
+
+            if (uSimRTS_WorldSurface.IsWalkable(hit))
+                SetSelectedUnitsWaypoint(hit.point);
+
+            uSimRTS_Unit firstSelectedUnit = selectedUnits[0];
+            if (firstSelectedUnit != null)
             {
-                SetSelectionEmpty();
+                uSimRTS_ResourceCollector resourceCollector =
+                    firstSelectedUnit.GetComponent<uSimRTS_ResourceCollector>();
+                uSimRTS_Refinery refinery = hit.collider.GetComponent<uSimRTS_Refinery>();
+
+                if (resourceCollector != null && refinery != null)
+                    resourceCollector.GoToRefinery(refinery);
             }
+
+            lastMouseHit = hit.point;
+        }
+
+        void CancelLeftPointerGesture()
+        {
+            if (selectionBox != null)
+                selectionBox.gameObject.SetActive(false);
+
+            ResetLeftPointerGesture();
+        }
+
+        void ResetLeftPointerGesture()
+        {
+            hadSelectedUnitsAtPress = false;
+            pointerPressConsumed = false;
+            selectionDragActive = false;
+            deltaMouse = 0f;
+        }
+
+        internal static bool ShouldIssueMoveOrder(
+            bool hadSelectionBeforePress,
+            bool pressWasConsumed,
+            bool wasSelectionDrag)
+        {
+            return hadSelectionBeforePress && !pressWasConsumed && !wasSelectionDrag;
+        }
+
+        internal static bool ShouldClearSelectionOnRightRelease(bool wasRotationDrag)
+        {
+            return !wasRotationDrag;
         }
 
 
@@ -173,7 +260,8 @@ namespace uSimRTS
 
                 if(screenPos.x > min.x && screenPos.x < max.x && screenPos.y < max.y && screenPos.y > min.y)
                 {
-                    selectedUnits.Add(unit);
+                    if (!selectedUnits.Contains(unit))
+                        selectedUnits.Add(unit);
                     unit.selector.SetActive(true);
                 }
             }
