@@ -147,7 +147,7 @@ namespace uSimRTS
                 if (unit.useNavMeshAgent && unit.navMeshAgent != null && unit.navMeshAgent.isOnNavMesh)
                     unit.navMeshAgent.ResetPath();
                 else if (unit.waypoint != null)
-                    unit.waypoint.position = unit.transform.position;
+                    unit.SetDestination(unit.transform.position);
             }
 
             lastOrder = "STOP";

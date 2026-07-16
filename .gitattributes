@@ -87,6 +87,9 @@ Packages/packages-lock.json linguist-generated
 **/Navigation/*.asset   lfs
 **/LightingData.asset   lfs
 
+# NavMesh project settings are YAML configuration, not baked binary data.
+ProjectSettings/NavMeshAreas.asset -filter diff merge=unityyamlmerge text eol=lf linguist-language=yaml
+
 # 3D models
 *.3dm                   lfs
 *.3ds                   lfs

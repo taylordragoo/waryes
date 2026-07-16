@@ -84,7 +84,7 @@ namespace uSimRTS
 
             if (recolectableResource)
             {
-                unit.waypoint.position = recolectableResource.transform.position;
+                unit.SetDestination(recolectableResource.transform.position);
                 float dist = Vector3.Distance(transform.position, recolectableResource.transform.position);
                 if (dist < 0.4f)
                     if(!collecting)
@@ -95,11 +95,11 @@ namespace uSimRTS
 
         public void GoToRefinery (uSimRTS_Refinery refinery)
         {
-            unit.waypoint.position = refinery.unloadPoint.position;
+            unit.SetDestination(refinery.unloadPoint.position);
             float dist = Vector3.Distance(transform.position, refinery.unloadPoint.position);
             if (dist < 0.2f)
             {
-                unit.waypoint.position = transform.position;
+                unit.SetDestination(transform.position);
                 if (!dumping)
                     StartCoroutine(DoDumpResources());
             }

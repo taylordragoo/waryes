@@ -65,7 +65,7 @@ namespace uSimRTS
                     Debug.LogWarning($"Could not find a complete NavMesh route for spawned unit '{newUnit.name}'.", newUnit);
             }
             else
-                unit.waypoint.position = asamblePoint.position;
+                unit.SetDestination(asamblePoint.position);
 
           
             

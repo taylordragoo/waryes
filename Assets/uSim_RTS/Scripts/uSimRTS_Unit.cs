@@ -28,6 +28,22 @@ namespace uSimRTS
         public bool useNavMeshAgent;
         public NavMeshAgent navMeshAgent;
 
+        [Header("Road-Preferred Navigation")]
+        [Tooltip("Use a cost-filtered NavMesh path as the steering target while retaining uSim vehicle movement.")]
+        public bool preferRoads = true;
+        [Tooltip("Per-query traversal cost for the Road NavMesh area.")]
+        [Min(1f)] public float roadPathCost = 1f;
+        [Tooltip("Per-query traversal cost for the default Walkable area.")]
+        [Min(1f)] public float terrainPathCost = 1.75f;
+        [Tooltip("Maximum distance used to project the vehicle and destination onto the NavMesh.")]
+        [Min(0.1f)] public float roadPathSampleDistance = 8f;
+        [Tooltip("Minimum distance at which a path corner is considered reached.")]
+        [Min(0.1f)] public float roadPathCornerDistance = 0.75f;
+        [Tooltip("Minimum delay between path calculations when a destination moves repeatedly.")]
+        [Min(0f)] public float roadPathRecalculationDelay = 0.25f;
+        [Tooltip("NavMesh agent type used for vehicle path queries. Zero is the project's Humanoid bake.")]
+        public int roadPathAgentTypeId;
+
         [Tooltip("internal use")]
         public Transform pointer;
         [Tooltip("internal use")]
@@ -49,6 +65,17 @@ namespace uSimRTS
         public GameObject blockingObject;
         Vector3 lastHitPos;
         Vector3 dirToWp;
+
+        const string RoadAreaName = "Road";
+        const string TerrainAreaName = "Walkable";
+        const float DestinationChangeThreshold = 0.05f;
+
+        NavMeshPath roadPath;
+        Vector3[] roadPathCorners = System.Array.Empty<Vector3>();
+        int roadPathCornerIndex;
+        Vector3 evaluatedRoadPathDestination;
+        bool hasEvaluatedRoadPathDestination;
+        float nextRoadPathCalculationTime;
 
         const float GroundProbeHeight = 100f;
         const float GroundProbeDistance = 250f;
@@ -78,7 +105,10 @@ namespace uSimRTS
             if (useNavMeshAgent)
                 navMeshAgent = GetComponent<NavMeshAgent>();
             else
+            {
+                roadPath = new NavMeshPath();
                 SnapToGround(transform.position);
+            }
 
             waypointOverlapChecker.CheckWaypointOverlaping();
 
@@ -89,23 +119,24 @@ namespace uSimRTS
         {
             if (!useNavMeshAgent) 
             {
+                Vector3 movementTarget = GetCustomMovementTarget();
             
                 if(moveInput > 0f)
                 CheckClearPath(dirToWp);
 
 
               //  pointer.rotation = Quaternion.Lerp(pointer.rotation,, Time.deltaTime);
-                Vector3 waypointDirection = PlanarDirectionTo(waypoint.position);
+                Vector3 waypointDirection = PlanarDirectionTo(movementTarget);
                 if (waypointDirection.sqrMagnitude > 0.0001f)
                     pointer.rotation = Quaternion.LookRotation(waypointDirection, Vector3.up);
 
 
                 if (!blockingObject)
-                    dirToWp = PlanarDirectionTo(waypoint.position);
+                    dirToWp = PlanarDirectionTo(movementTarget);
 
 
 
-                Vector3 planarWaypoint = waypoint.position;
+                Vector3 planarWaypoint = movementTarget;
                 planarWaypoint.y = transform.position.y;
                 inverseTgtPos = transform.InverseTransformPoint(planarWaypoint);
 
@@ -130,7 +161,7 @@ namespace uSimRTS
 
 
                     moveInput = 1f;
-                distToTgt = PlanarDirectionTo(waypoint.position).magnitude;
+                distToTgt = PlanarDirectionTo(movementTarget).magnitude;
                 if (distToTgt < size || colliding)
                     moveInput = -3f;
 
@@ -165,6 +196,131 @@ namespace uSimRTS
         Vector3 PlanarDirectionTo(Vector3 worldPosition)
         {
             return Vector3.ProjectOnPlane(worldPosition - transform.position, Vector3.up);
+        }
+
+        public void SetDestination(Vector3 destination)
+        {
+            if (useNavMeshAgent)
+            {
+                if (navMeshAgent != null && navMeshAgent.isOnNavMesh)
+                    navMeshAgent.SetDestination(destination);
+
+                return;
+            }
+
+            if (waypoint == null)
+                return;
+
+            if ((waypoint.position - destination).sqrMagnitude > DestinationChangeThreshold * DestinationChangeThreshold)
+                hasEvaluatedRoadPathDestination = false;
+
+            waypoint.position = destination;
+        }
+
+        Vector3 GetCustomMovementTarget()
+        {
+            Vector3 destination = waypoint.position;
+
+            if (!preferRoads)
+            {
+                ClearRoadPath();
+                return destination;
+            }
+
+            bool destinationChanged = !hasEvaluatedRoadPathDestination ||
+                (evaluatedRoadPathDestination - destination).sqrMagnitude > DestinationChangeThreshold * DestinationChangeThreshold;
+
+            if (destinationChanged)
+            {
+                ClearRoadPath();
+
+                if (Time.time >= nextRoadPathCalculationTime)
+                {
+                    CalculateRoadPreferredPath(destination);
+                    evaluatedRoadPathDestination = destination;
+                    hasEvaluatedRoadPathDestination = true;
+                    nextRoadPathCalculationTime = Time.time + roadPathRecalculationDelay;
+                }
+            }
+
+            float cornerDistance = Mathf.Max(roadPathCornerDistance, size);
+            float cornerDistanceSquared = cornerDistance * cornerDistance;
+
+            while (roadPathCornerIndex < roadPathCorners.Length &&
+                PlanarDirectionTo(roadPathCorners[roadPathCornerIndex]).sqrMagnitude <= cornerDistanceSquared)
+            {
+                roadPathCornerIndex++;
+            }
+
+            if (roadPathCornerIndex < roadPathCorners.Length)
+                return roadPathCorners[roadPathCornerIndex];
+
+            ClearRoadPath();
+            return destination;
+        }
+
+        void CalculateRoadPreferredPath(Vector3 destination)
+        {
+            int roadArea = NavMesh.GetAreaFromName(RoadAreaName);
+            int terrainArea = NavMesh.GetAreaFromName(TerrainAreaName);
+
+            if (roadArea < 0 || terrainArea < 0)
+                return;
+
+            NavMeshQueryFilter filter = new NavMeshQueryFilter
+            {
+                agentTypeID = roadPathAgentTypeId,
+                areaMask = NavMesh.AllAreas
+            };
+
+            filter.SetAreaCost(roadArea, Mathf.Max(1f, roadPathCost));
+            filter.SetAreaCost(terrainArea, Mathf.Max(1f, terrainPathCost));
+
+            if (!NavMesh.SamplePosition(transform.position, out NavMeshHit startHit, roadPathSampleDistance, filter) ||
+                !NavMesh.SamplePosition(destination, out NavMeshHit destinationHit, roadPathSampleDistance, filter))
+            {
+                return;
+            }
+
+            if (roadPath == null)
+                roadPath = new NavMeshPath();
+
+            roadPath.ClearCorners();
+
+            if (!NavMesh.CalculatePath(startHit.position, destinationHit.position, filter, roadPath) ||
+                roadPath.status != NavMeshPathStatus.PathComplete)
+            {
+                return;
+            }
+
+            Vector3[] corners = roadPath.corners;
+            if (corners == null || corners.Length == 0)
+                return;
+
+            roadPathCorners = corners;
+            roadPathCornerIndex = 0;
+        }
+
+        void ClearRoadPath()
+        {
+            roadPathCorners = System.Array.Empty<Vector3>();
+            roadPathCornerIndex = 0;
+        }
+
+        void OnDrawGizmosSelected()
+        {
+            if (roadPathCorners == null || roadPathCorners.Length == 0)
+                return;
+
+            Gizmos.color = Color.cyan;
+            Vector3 previous = transform.position;
+
+            for (int i = roadPathCornerIndex; i < roadPathCorners.Length; i++)
+            {
+                Gizmos.DrawLine(previous, roadPathCorners[i]);
+                Gizmos.DrawSphere(roadPathCorners[i], 0.25f);
+                previous = roadPathCorners[i];
+            }
         }
 
         void SnapToGround(Vector3 worldPosition)

@@ -52,10 +52,7 @@ namespace uSimRTS
                     {
                         Vector3 pos = enemyBaseBuildings[0].transform.position - ((enemyBaseBuildings[0].transform.position - unit.transform.position).normalized * unit.radar.range * 0.85f);
                         pos.y = 0f;
-                        if (!unit.useNavMeshAgent)
-                            unit.waypoint.position = pos;
-                        else
-                            unit.navMeshAgent.SetDestination(pos);
+                        unit.SetDestination(pos);
 
                         unit.waypointOverlapChecker.CheckWaypointOverlaping();
                     }

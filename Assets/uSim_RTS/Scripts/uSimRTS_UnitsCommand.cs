@@ -199,10 +199,7 @@ namespace uSimRTS
             {
                 foreach (uSimRTS_Unit units in selectedUnits)
                 {
-                    if (!units.useNavMeshAgent)
-                        units.waypoint.position = pos;
-                    else
-                        units.navMeshAgent.SetDestination(pos);
+                    units.SetDestination(pos);
 
                     StartCoroutine(WaitAndCheckOVerlap(units));
                 }

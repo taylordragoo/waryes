@@ -26,10 +26,7 @@ namespace uSimRTS
                     Vector3 dest = transform.position;
                     if (Vector3.Distance (transform.position, radar.contacts[0].transform.position) > radar.range)
                           dest = radar.contacts[0].transform.position + ((transform.position - radar.contacts[0].transform.position).normalized * radar.range * 0.85f);
-                    if (!unit.useNavMeshAgent)
-                        unit.waypoint.position = dest;
-                    else
-                        unit.navMeshAgent.SetDestination(dest);
+                    unit.SetDestination(dest);
 
                     unit.waypointOverlapChecker.CheckWaypointOverlaping();
                 }
